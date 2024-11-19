@@ -1,0 +1,565 @@
+        /* SquaRE Elements */ 
+    /* User Avatars */
+
+.miniprofile_miniProfileContent_1xTAT .miniprofile_playerAvatar_36eQg img,
+.chatroomgroupsettings_General_8XwlG .chatroomgroupsettings_Avatar_2LpXh,
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2YbSwspXZ90_vgzS5O3X4F,   
+.steamavatar_avatarHolder_nibod .steamavatar_avatarStatus_3xUpb.bottom,
+.miniprofile_miniProfileContent_1xTAT .miniprofile_playerAvatar_36eQg,
+.steamavatar_avatarHolder_nibod .steamavatar_avatarStatus_3xUpb.right, 
+.friend_block_holder.friend_status_offline .friend_block_avatar,    
+.friend_block_holder.friend_status_online .friend_block_avatar, 
+.playerAvatar.profile_header_size .playerAvatarAutoSizeInner,
+.friend_activity.friend_status_offline .friend_block_avatar,
+.friend_activity.friend_status_online .friend_block_avatar, 
+._29CGQrIvjYllKwVQKe8d8R._1aa4CwlUeZE1tRZGOsRPx9 img,
+.miniprofile_playersection .playersection_avatar img,
+.QFW0BtI4l77AFmv1xLAkx ._1VRx9qVxigUC4qeM0NWNMR img,
+.profile_header .playerAvatar.profile_header_size,
+.miniprofile_playersection .playersection_avatar,
+.friend_status_offline .friend_block_avatar img,
+.friend_status_online .friend_block_avatar img, 
+.friend_block_holder .friend_block_avatar img,
+.friend_activity .friend_block_avatar img,
+.online .steamavatar_avatarStatus_3xUpb,
+.steamavatar_avatarHolder_nibod.X-Large,
+.playerAvatar .profile_avatar_frame,
+.store_nav .tab img.foryou_avatar,
+.avatar_block_status_offline img,
+.steamavatar_avatarHolder_nibod,
+.avatar_block_status_online img,
+.appHubIconHolder.offline img,
+.appHubIconHolder.online img, 
+.avatar_block_status_offline,
+._29CGQrIvjYllKwVQKe8d8R img,
+.avatar_block_status_online,
+.steamavatar_avatar_3h-QR,
+.appHubIconHolder.offline,
+.playerAvatar.offline img, 
+.playerAvatar.in-game img,
+.appHubIconHolder.ignored,
+._3h-QRJGxnVOIExtHD1R0f2,
+.appHubIconHolder.online, 
+.playerAvatar.online img, 
+.nibodjvvrm86uCfnnAn4g,
+.playerAvatar.offline,
+.playerAvatar.in-game,
+.playerAvatar.online,
+.ChatRoomGroupAvatar,
+.playerAvatar img,
+
+placeholder {
+-webkit-border-radius: 16% !important;
+} 
+/* Remove Avatar Custom Border in Comments [Profile Content - TEMP :/] */
+.playerAvatar .profile_avatar_frame > img {
+    display: none;
+}
+/* Remove Stupid Shadow Box [Chat Content] */
+.miniprofile_miniProfileContent_1xTAT .miniprofile_playerAvatar_36eQg {
+    box-shadow: unset !important;
+}
+
+    /* Level Users */
+
+.friendPlayerLevel,
+
+placeholder {
+-webkit-border-radius: 22% !important;
+}  
+
+    /* Seller Avatars */
+
+.recommended_creators_ctn .recommended_creators_container .avatars > a img,
+
+placeholder {
+-webkit-border-radius: 7% !important;
+}  
+    /* Group Avatars */
+
+._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY,
+.profile_primary_group .profile_group_avatar,
+.profile_group_avatar img,
+.profile_group_avatar,
+
+placeholder {
+-webkit-border-radius: 10% !important;
+}  
+
+    /* Images */
+    
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2_RnvOULQZCa2zLP-wkKt0 ._3OyyiqHIwtrEKKyPTWPTGK ._3RN5Yt4DuIZQ7nREAU7pp3,
+._2Lw2P_j70aBlKLSoJph8LO ._26yC-q8FSPMqOFzmSC-AQt ._3gaKBlYJZ7Lsf3K7w7PhFh ._1XWQ17waR-szs5OoToHPIy>img,
+._2Lw2P_j70aBlKLSoJph8LO ._26yC-q8FSPMqOFzmSC-AQt ._3gaKBlYJZ7Lsf3K7w7PhFh ._1XWQ17waR-szs5OoToHPIy,
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2_RnvOULQZCa2zLP-wkKt0 ._3OyyiqHIwtrEKKyPTWPTGK,
+._3NIiYdehUu4wAz6rNXR_OB ._2GvFUUI49ePmg62crk2qDO.Gd3-pJ25GXL-bDaQAnChb,
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh .N5jkzEz-bwL_mKsRTH0EC,
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh .U-rBCVfODx4G2p43_zb8V,
+.workshop_showcase_item img.workshop_showcase_item_image,
+._1JFlRrkeYJegFK8xCBRfYw ._3PAmyizPC3zW2TZLRI8I9P video,
+.apphub_UserReviewCardContent .vote_header .thumb img,
+.guide_showcase_appinfo .workshop_showcase_app img,
+.favoritegame_showcase_game .favorite_game_cap img,   
+._1kB6_rUcA_VRp7MER6E0Vi ._1JFlRrkeYJegFK8xCBRfYw,
+._1JFlRrkeYJegFK8xCBRfYw ._3PAmyizPC3zW2TZLRI8I9P,
+.favoritegame_showcase_game .favorite_game_cap, 
+.showcase_gamecollector_game img.game_capsule,    
+.store_main_capsule .screenshots > div > div,
+.recent_game .game_info .game_info_cap img,
+.home_content a.home_content_item img, 
+.home_content.single a.screenshot img,
+.home_content.single .screenshots,
+.home_content.single a.screenshot,
+.hover_screenshots .screenshot,
+.home_content.single .capsule,
+._2GvFUUI49ePmg62crk2qDO img,
+._2Zeggw-2qC5ma2qpjzHRlF img,
+._1JFlRrkeYJegFK8xCBRfYw img,
+.game_info_achievement img,
+.help_wizard_button > img,
+.tab_preview .screenshot,
+._2Zeggw-2qC5ma2qpjzHRlF,
+.home_content .item img,
+.apphub_CardContentMain,
+.item_desc_icon_center,
+.game_info_achievement, 
+.guidePreviewImage img,
+#iteminfo1_item_icon,
+.appHubShortcut_Icon,
+.hover_screenshots,
+.dq_item img,
+.dq_item div, 
+.dq_item,
+    
+placeholder {
+-webkit-border-radius: 3px !important;
+}  
+
+    /* Buttons */
+
+.btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+.community_recommendation_app > .right_col > .paging_thumbs > .community_recommendation_arrow,
+.scrollfade_ScrollFade_30Xro.scrollfade_ScrolledToTop_3bWn5.scrollfade_ScrolledToBottom_2wvQS,
+.apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach,
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._1xCANgh2DSCcadDX6X0PpT,
+._3M7bfuSoa6JGmxA1QmgvE- ._3G7_ByX0F3B1xS5njWf-qK ._2mYVCfUFCM7pJS8ltMgq0x,
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu,
+body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover,
+.chatentry_chatEntryControls_3Ule3 .chatentry_chatSubmitButton_RVIs8,
+body.profile_edit_page input.DialogTextInputBase:disabled:hover,
+.toggle_Toggle_3Sl0Q .toggle_ToggleSwitch_3IWp5.toggle_On_317le,
+.inviteLinkContainer .DialogInput_Wrapper._DialogLayout,
+ body.profile_edit_page input.DialogTextInputBase:focus,
+.profile_comment_area .commentthread_subscribe_checkbox,
+.profile_comment_area .commentthread_entry_quotebox,
+body.v6 .recommendation_mainsection h2 span.right, 
+._1Uh_y1atXoMOUxGyUQK8vC ._1OH7OiFxIJo5Y7Z4Z6U6iO,
+body.profile_edit_page input.DialogTextInputBase, 
+.toggle_Toggle_3Sl0Q .toggle_ToggleSwitch_3IWp5,
+.store_main_capsule .reason .main .tags > span,
+.apphub_responsive_tab .responsive_tab_control,
+.store_main_capsule .reason .additional > div,
+body.v6 .recommendation_section h2 span.right, 
+.toggle_Toggle_3Sl0Q .toggle_ToggleRail_2Fw7g,
+.filter_ctn.inventory_filters #filter_control,
+.DialogTextInputBase, ._DialogInputContainer,
+.carousel_container .carousel_thumbs > div,
+.profile_summary_modal.viewing_own_profile,
+.commentthread_comment_edit_textarea_ctn,
+.ChatMessageEntryVoice .buttonsContainer,
+.profile_customization_edit_icon.bluebox, 
+body.v6 .home_page_content h2 span.right,
+body.v6 .user_reviews_header span.right,
+.apphub_sectionTab, a.apphub_sectionTab, 
+.chatentry_chatEntryActionsGroup_2WfNo,
+.DialogRoundCheckboxField_OuterCircle,
+.chatentry_chatEntryControls_3Ule3,
+.btn_green_white_innerfade > span,
+.apphub_sectionTab.active > span, 
+.header_installsteam_btn_content,
+.share_controls_page_link input,
+.btnv6_white_transparent > span,
+.store_header_btn_gray a:hover,
+.community_home_search_players,
+.newmodal_prompt_with_textarea,
+body.v6 .bucket h2 span.right,
+.FriendPicker_SuggestedFriend,
+.ds_options_tooltip > .option,
+.chatentry_chatTextarea_113iu,
+.btn_darkblue_white_innerfade,
+.welcome_dismiss.close_button,
+.btnv6_blue_hoverfade > span,
+.community_home_search_apps,
+.DialogToggleField_Control,
+#help_search_support_input,
+.btn_profile_action > span,
+.btn_grey_grey_outer_bevel,
+.btn_green_white_innerfade,
+.btn_grey_white_innerfade,
+.btn_green_steamui > span,
+.btn_grey_steamui > span,
+.btnv6_white_transparent,
+._2c38-cNCRIFm4I1wCCJ2ac, 
+._2tQyoFl0ilITEK586SpZlQ,
+._1jW5_Ycv6jGKu28A1OSIQK,
+._25gii5r23MmAqXvLZj24tK, 
+._3k90ug209sE23xAMqcM74s,
+._3B8wRA4H7e_oSksYNqpSPv, 
+._2NdiftmP-B3C4LPWnNGTCB,
+input[type="checkbox" i],
+.share_controls_steam a,
+.hover_tag_row .app_tag,
+a#store_search_link img,
+.QFW0BtI4l77AFmv1xLAkx,
+.ChatMessageEntryVoice,
+body.v6 .deep_dive_tag,
+.tab_preview .tags > a, 
+.DialogSlider_Grabber,
+.btnv6_blue_hoverfade,
+.btn_uppercase > span,
+.share_controls_steam, 
+div.store_header_btn,
+input[type=password],
+.help_wizard_button,
+.radio_Button_Hijmc,
+.btn_profile_action,
+button.DialogButton,
+textarea.gray_bevel,
+input[type=number],
+select.gray_bevel,
+.ds_options > div,
+.btn_small > span, 
+input.gray_bevel,   
+div#store_search,
+input[type=text],
+.btn_grey_black,
+input.btn_small,
+#contextselect, 
+.review_award,
+.general_btn,
+.VoiceToggle,
+.friendBlock,
+.gray_bevel,
+.big_button,
+.searchbox,
+.btn_black,
+a.newitem,
+.ellipsis,
+a.pagebtn,
+.pagebtn, 
+
+placeholder {
+-webkit-border-radius: 3px !important;
+}  
+/* Left Button */
+.carousel_container .arrow.left {
+    border-radius: 3px 0 0 3px !important;
+}
+/* Right Button */
+.carousel_container .arrow.right {
+    border-radius: 0 3px 3px 0 !important;
+}
+/* Button With Arrow */
+.discovery_queue_ctn .begin_exploring {
+    border-radius: 3px 0 0 3px !important;
+}
+
+/* Buttons in Chat [Chat Content] */
+.chatentry_chatSubmitButton_RVIs8.chatentry_EmoticonPickerButton_Aupsw {
+    border-radius: 3px 0 0 3px !important;
+}
+.chatentry_chatSubmitButton_RVIs8.chatentry_EmbedButton_3zOBe {
+    border-radius: 0 3px 3px 0 !important;
+}
+/* Slider [Chat Content] */
+.DialogSlider_Value {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+}
+/* Back to Top [Community Content] */
+.apphub_BackToTopButton {
+    border-radius: 3px 3px 0 0 !important;
+}
+.apphub_BackToTopButton.rightcap
+.leftcap.apphub_BackToTopButton {
+    display: none !important;
+}
+/*GoofyAhhFix*/
+.apphub_BackToTopButton {
+    border: solid 1px var(--gpStoreDarkGrey) !important;
+}
+/* Tab Buttons [Community Content] */
+.apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,
+.apphub_responsive_tab .responsive_tab_control,
+.apphub_sectionTab, a.apphub_sectionTab, 
+.apphub_sectionTab.active > span {
+    border-bottom-left-radius: 0px !important !important;
+    border-bottom-right-radius: 0px !important !important;
+}
+/* Guide Buttons [Community Content] */
+.browseOptionImage {
+    border-radius: 0 3px 3px 0 !important;
+    width: 303.5px !important;
+}
+    /* Better Buttons */
+    
+._39ksjd1_LKKPt0CIOhnMF7 ._33SnKgfa_4ZtACekXcqli0 ._36oStJXlvGWLdFxYUgNyg-,
+.DialogSlider_Slider,
+
+placeholder {
+-webkit-border-radius: 5px !important;
+}  
+    
+.DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle,
+._2EUBPpuLIR8PTTb_d40Gv9,
+
+placeholder {
+-webkit-border-radius: 2px !important;
+}  
+
+    /* Tooltips */
+    
+.store_capsule .discount_block > .discount_prices,    
+body.v6 .popup_block_new .popup_body.popup_menu,
+.miniprofile_miniProfileBackground_3HzZh,
+.miniprofile_hover_inner.shadow_content,
+.miniprofile_miniProfileContent_1xTAT,
+body.v6 .broadcast_live_stream_icon,
+.hover_body .hover_review_summary, 
+.content_hub_capsule_ctn .label,
+#account_dropdown > .popup_body,
+#contextselect_options_contexts,
+.miniprofile_miniProfile_2QPdq,
+.store_capsule .discount_block,
+.popup_block_new .popup_body,
+.miniprofile_backgroundblur,
+._1xTATKELHR-lRS_s3A4yzd,
+._1MWlWL7ZhPBM6BDFnIiZC-,
+.popup_block .popup_body,
+.miniprofile_background,
+.miniprofile_container,
+#tab_preview_container,
+#NamePopup .popup_menu,
+.daily_deal_discount,
+.tab_review_summary,
+.ds_options_tooltip,
+.just_added_to_list,
+.GreenEnvelopeMenu,
+.miniprofile_hover,
+.supernav_content,
+.game_hover_box p, 
+.popup_block_new,
+.shadow_content,
+.game_hover_box,
+.discount_block,
+.store_tooltip,
+.shadow_bottom,
+.shadow_right,
+.shadow_left, 
+.shadow_top, 
+.shadow_ul, 
+.shadow_ur, 
+.shadow_bl, 
+.shadow_br,
+    
+placeholder {
+-webkit-border-radius: 3px !important;
+} 
+/* PriceTag [Store Content] */
+.store_capsule .discount_block.daily_deal_discount > .discount_prices,
+.discount_block_inline .discount_prices,
+.discount_block_large .discount_prices {
+    border-radius: 0 3px 3px 0 !important;
+}
+.discount_block .discount_pct, 
+.discount_pct {
+    border-radius: 3px 0 0 3px !important;
+}
+/* WhiteList [Store Content] */
+._2gxv9cF-4n9wq4yxruOTNl,
+.ds_flag {
+    border-radius: 0 3px 3px 0 !important;
+}
+/* Progress Bar [Profile Content] */
+.achievement_progress_bar_ctn .progress_bar {
+    border-radius: 2px !important;
+}
+.achievement_progress_bar_ctn {
+    border-radius: 2.5px !important;
+}
+/* "New" Ping [Chat Content] */
+.emoticon_NewEmoticonIndicator_3O2gR .emoticon_NewEmoticonCircle_JRMFr,
+.ChatUnreadMessageIndicator .chatUnreadCircle,
+.emoticon_NewEmoticonIndicator_3O2gR {
+    border-radius: 1.5px !important;
+}
+/* Remove Shadow Shit [Profile Content] */
+.shadow_bottom,
+.shadow_right,
+.shadow_left, 
+.shadow_top, 
+.shadow_ul, 
+.shadow_ur, 
+.shadow_bl, 
+.shadow_br {
+    background-image: unset;
+}
+
+
+    /* Interface */
+    
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg,    
+._2Lw2P_j70aBlKLSoJph8LO ._26yC-q8FSPMqOFzmSC-AQt ._3gaKBlYJZ7Lsf3K7w7PhFh,
+.carousel_container.spotlight .carousel_items > * .store_capsule,
+.community_home_app_shortcuts .community_home_shortcut_content,
+.carousel_container .carousel_items:not(.no_paging) > *,    
+.carousel_container.spotlight .carousel_items > * > div,
+.store_nav .tab.focus > span, .store_nav .tab.focus,
+.store_nav .tab:hover > span, .store_nav .tab:hover,
+.DialogSpanningTable.InvitedUsersTable tr.hoverRow, 
+.content_hub_carousel_ctn .content_hub_capsule_ctn,
+.DialogSpanningTable.BannedUsersTable tr.hoverRow, 
+._1st6-XscoE6pAsGNvDoIje ._3LoKg78CNiXHr1KHmURkIE,
+.n1M1oAE4l0f1dxNm_ux2s ._20EDLy9ziFgZhS3jI4b1FG,
+.DialogSpanningTable.InviteLinksTable tbody tr,
+.VoiceSettings .advancedSettings.showAdvanced,
+.carousel_container .carousel_items > *.focus,
+.carousel_container.maincap .carousel_items,
+.friends_recently_purchased .store_capsule,
+.ChatGroupSettingsChannels_Row ._DialogRow,
+.FullModalOverlay .ModalPosition_Content,
+.favoritegame_showcase .game_info_stats,
+.focus > .community_recommendation_app,
+.carousel_items:not(.no_paging) > *,
+.DialogTwoColLayout>._DialogLayout,
+#ig_bottom .sidebar .detailPanel,
+.community_home_shortcut_content,
+.games_list_separator.actionable,
+.home_content.single_buttonbar,
+.showcase_openslot_placeholder,
+.recent_game .game_info_stats, 
+.pagedcontent_Container_3-t6T,
+.apphub_CardContentGuideTitle,
+.community_home_app_shortcuts,
+.profile_small_header_texture,
+.alertbox_header .rightcap,
+#ig_bottom .sidebar .panel, 
+.community_home_search_box,
+.alertbox_header .leftcap,
+.store_main_capsule:hover,
+.help_purchase_detail_box,
+div.ModalPosition_TopBar,
+._1B_k-wp3lqSLARvY8-5-EX,
+._2MFEYjLdT-bfsz3n1hkGnf,
+._1st6-XscoE6pAsGNvDoIje,
+._1vtnSPuMGOHiNcy6sGp83L,
+._1TX8MTfNTg-C5c8w44F6aZ,
+.ModalPosition_Content>*,
+._1uSw_aqus0W7yb3vT9_-22,
+._1cj-7JmCC_IQ4ZdxxUo43Q,
+._35hlMprL--UdgfHJGuGnJR,
+.toggle_ToggleRow_1MBq0,
+._2SDnX-VXLTVb4X_sHKJen,
+._3YNnWUgHCZcVvmfX9qpOQ,
+.home_marketing_message,
+.game_info_badge_border,
+.xaO4vzHwYk79YSHtz1EDc,
+.go6jLpmJlgzmvSwdeqLFv,
+.profile_customization,
+.jnA47pnC2fs47Uo4apcHu,
+.ModalPosition_Content,
+.profile_header_badge,
+.profile_comment_area,
+#tabcontent_inventory,
+.games_list_separator,
+.showcase_content_bg,
+.home_page_takeunder,
+.home_content.single,
+.home_area_spotlight,
+.recent_game_content,
+.commentthread_entry,
+.games_list_tabs_ctn,
+.store_main_capsule, 
+.commentthread_area,
+.community_tooltip,
+.radio_Group_1ml4S,
+.profile_rightcol,
+.help_app_header,
+.spotlight_img a,
+div.recent_games, 
+.carousel_items,
+div.recent_game,
+.spotlight_img,
+.store_capsule,
+.tab_see_more,
+.recent_game,
+.apphub_Card,
+.guideTop,
+.newmodal,
+.tab_item,
+.alertbox,
+#newitems,
+
+placeholder {
+-webkit-border-radius: 3px !important;
+} 
+/* Spotlight [Store Content] */
+.recommended_creators_ctn .recommended_creators_container,
+.spotlight_content {
+    border-radius: 0 0 3px 3px !important;
+}
+/* Banner Game [Store Content] */
+.home_marketing_message > span,
+.store_capsule .capsule {
+    border-radius: 3px 3px 0 0 !important;
+}
+.tab_item_cap_img {
+    border-radius: 3px 0 0 3px !important;
+}
+.store_main_capsule .info {
+    border-radius: 0 3px 3px 0 !important;
+}
+/* Focus Game [Store Content] */
+.tab_item.focus {
+    border-radius: 5px 0 0 5px !important;
+}
+/* Trending Games Friends [Store Content] */
+.friends_recently_purchased .friends_container {
+    border-radius: 0 0 3px 3px !important;
+}
+/* Recently Viewed [Store Content] */
+#home_gutter_recentlyviewed{
+    border-radius: 0 3px 3px 0 !important;
+}
+/* Chat Settings [Chat Content] */
+.pagedcontent_Content_2mJpA {
+    border-radius: 0 3px 3px 0 !important;
+}
+.pagedcontent_Nav_1Vqsn {
+    border-radius: 3px 0 0 3px !important;
+}
+div.ModalPosition_TopBar {
+    background: unset !important;
+}
+/* Remove "Border" Top [Share Content] */
+.modal_top_bar {
+    background: unset !important;
+}
+/* Fix New Item Alert [Inventory] */
+.alertbox_header .rightcap,
+.alertbox_header .leftcap,
+.alertbox_header {
+    background: #5C7E10 !important;
+    background-image: unset !important;
+}
+.rightcap,
+.leftcap {
+    display: none !important;
+}
+.alertbox_header {
+    border-radius: 3px 3px 0 0 !important;
+}
+.alertbox_content {
+    border-radius: 0 0 3px 3px !important;
+}

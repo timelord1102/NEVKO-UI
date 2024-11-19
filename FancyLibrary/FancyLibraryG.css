@@ -1,0 +1,285 @@
+/* I hate this fucking code, needs to rewrite (later) */
+/* If god exist, please, have mercy */
+
+		/* Side Menu */
+	/* Page */
+/*Reverse Interface*/
+._3xRRJfD2xy95i9NhJxLTp0 {
+    flex-direction: row-reverse;
+}				
+	/*Fancy Library - Side Menu */
+/*Silly Thing*/
+._3x1HklzyDs4TEjACrRO2tB {
+	flex-direction: column-reverse;
+	margin-top: 18px !important;
+	background-image: unset;
+	height: 95% !important;
+	border-radius: 4px;
+}
+._2TKEazUUS3TlniZfpc8OOe {
+	padding: 8px 6px 2px 6px;
+    background-color: #161D25;
+    box-shadow: unset !important;
+}
+._1ZS_xta5HMXzR8JgxDH6n7 {
+    padding: 8px 6px 8px;
+	background: #161D25;
+}
+._20QAC4WMXm8qFE8waUT5oo {
+    margin: 6px 6px 4px 6px;
+}
+/*Color Background*/
+._9sPoVBFyE_vE87mnZJ5aB {
+	background: #161D25;
+}
+._1rDh5rXSFZJOqCa4UpnI4z {
+    background: #161D25;
+}
+/*Big Text in Library*/
+._2-O4ZG0KrnSrzISHBKctFQ {
+    font-size: 13px !important;
+}
+/*Bigger Slider*/
+._276E6ijBpjMA2_iTxNhhjc {
+	height: 95%;
+    margin-top: 18px;
+    margin-right: 8px;
+	border-radius: 1.5px;
+	background-color: #5d656f;
+	width: 8px;
+}
+._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2 {
+    cursor: grabbing;
+}
+
+		/* Game Page */
+	/* Fancy Library - Game Page */
+/*Remove Background & Blur*/
+._2OOzYVWIHaKXm6_7sscT9i .Jbe--NUNw7sxbxGsMSjVa {
+    backdrop-filter: unset;
+    background: unset;
+}
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    background: unset;
+}
+._3fLo166MlaNqP8r8tTyRz {
+    background: unset;
+    transition: unset;
+}
+.HNbe3eZf6H7dtJ042x1vM {
+    -webkit-mask-image: unset;
+    mask-image: unset;
+}
+/* Game Card Page*/
+._27RcNu8aXKBpYkHcNNrt-X .OhSdLYuggDtBcWjYP0j_9 {
+    padding: 26px 10px 10px 10px;
+}
+._3-V8vjmrwuJM6Ws3tsjFJj {
+	margin-left: auto;
+    margin-right: auto;
+    background-color: #262a2fe0;
+	border-radius: 4px;
+	width: 86%;
+}
+.HNbe3eZf6H7dtJ042x1vM {
+	width: calc(100% + 128px);
+	height: 135%;
+}
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb, .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u {
+    height: 265%;
+}
+.QlR9EFwTdUNm_J5vx54_Z {
+    height: 123%;
+}
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb {
+	filter: blur(7px);
+	transform: unset
+}
+._3-V8vjmrwuJM6Ws3tsjFJj>div {
+    background: #33383fbd !important;
+    box-shadow: none !important;
+}
+._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
+    border-image-source: unset;
+    border-image-width: 1px;
+    border-image-repeat: stretch;
+    border-image-slice: 7;
+    background: unset;
+    box-shadow: 0 0 12px #00000025;
+}
+._3Yf8b2v5oOD8Wqsxu04ar {
+    margin-bottom: -6px !important;
+}
+._3BFcmjAaMyP6GTPwc0VyWi {
+    border: 6px #161d25 solid;
+}
+._2Dd4T78PcCTUVgOtDGFY5j {
+    border-radius: 12px;
+}
+._27RcNu8aXKBpYkHcNNrt-X ._1sZgBDTw5NH-yuVDZK1SUU {
+    width: 100%;
+}
+._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
+    margin-left: unset !important;
+}
+/*Information (Date, Time in Game, etc.)*/
+._1YbtIWcfkQJOysLXQbwzRf .zjtAIAWI6HE0oCtJzw6Qt {
+    display: unset !important;
+}
+._9EHg918wH6CQCQlD5PWOO {
+    display: unset;
+}
+._1YbtIWcfkQJOysLXQbwzRf ._1mDAVT4sTzFRwJtlKCw2Ws {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row-reverse !important;
+    align-content: center !important;
+	margin-top: 2px;
+}
+div.NarrowRightPanel ._34lrt5-Fc3usZU6trA1P0- {
+    margin-top: 3px;
+}
+._1YbtIWcfkQJOysLXQbwzRf {
+	background: #424953c9;
+	border-radius: 3px;
+    top: 7px;
+    right: 30px;
+    position: fixed !important;
+}
+._27RcNu8aXKBpYkHcNNrt-X {
+    transform-style: unset !important;
+}
+._1_cYNJSvS6IXs9vLTEYjy5 {
+    transform-style: unset !important;
+}
+._1kiZKVbDe-9Ikootk57kpA {
+	margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px;
+}
+._34lrt5-Fc3usZU6trA1P0- {
+    font-size: 10px;
+    line-height: unset;
+}
+div.NarrowRightPanel ._34lrt5-Fc3usZU6trA1P0- {
+    line-height: 10px;
+    font-size: 10px;
+}
+div.NarrowRightPanel ._2TYVGoD27ZMfjRirKQNLfk {
+    font-size: 11px;
+}
+._1kiZKVbDe-9Ikootk57kpA ._3bkqc-SsCg0b3FTEuewlK8 {
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+}
+._2TYVGoD27ZMfjRirKQNLfk {
+    font-size: 11px;
+}
+._1dg8hJMsAYISbeQUxcCJcv ._25YVDTaClw6Y2COPsU0UaV {
+    width: 120px;
+	border-radius: 1px;
+}
+._25YVDTaClw6Y2COPsU0UaV {
+    width: 40px;
+    border-radius: 1px;
+}
+._1dg8hJMsAYISbeQUxcCJcv {
+    padding: 5px 12px 0px;
+}
+button.DialogButton._1qG6xUlNu-qvdhpSxwed5 {
+    background-color: unset;
+	bottom: 3px;
+}
+._1kiZKVbDe-9Ikootk57kpA ._1tIg-QIrwMNtCm7NcYADyi {
+    margin: 2px;
+}
+/*Location*/
+._1kiZKVbDe-9Ikootk57kpA ._3m_zjRTQBqcfzCjXLXUHcR {
+    margin-top: 1px;
+}
+._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg {
+    margin-top: 1px;
+}
+div.NarrowRightPanel ._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT {
+    margin-top: 4px;
+}
+div.NarrowRightPanel ._1kiZKVbDe-9Ikootk57kpA {
+    margin-top: -2px !important;
+}
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    margin-top: 6px;
+}
+/*Play Button*/
+._2zxzStp5qY5M1evOm8keES {
+    margin-right: 0px;
+	margin-left: 0px;
+}
+._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA {
+    border-radius: 4px 0px 0px 4px;
+}
+._2q-gZ3XJzlvSGHSF-GvSmi {
+    border-radius: 0px 4px 4px 0px;
+}
+._1FnJ6dPuknQFQ2RTpKTI16 {
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+._3ydigb6zZAjJ0JCDgHwSYA {
+    margin-top: 38px;
+	border-radius: 4px;
+}
+._2q-gZ3XJzlvSGHSF-GvSmi {
+    margin-top: 38px;
+}
+.A14yd24JRjhFI-Q1ae6tN {
+    bottom: -36px;
+}
+._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
+	display: none;
+    opacity: 0;
+}
+._2OOzYVWIHaKXm6_7sscT9i>div {
+    transition: 1s all ease;
+	margin-top: 4px;
+}
+._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
+    background: #262a2f;
+	border-radius: 10px 10px 0 0;
+	display: flex;
+	margin-top: 8px;
+}
+._2r4TK4BAuU-J4FuF_O7v_5 ._3-V8vjmrwuJM6Ws3tsjFJj .Panel {
+	background-color: #23262ec7;
+}
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
+    border-radius: 0.04em;
+}
+._9EHg918wH6CQCQlD5PWOO .z8GYwNt_nbBZrf7OVjs-s .Panel, .Panel ._9EHg918wH6CQCQlD5PWOO .z8GYwNt_nbBZrf7OVjs-s {
+	display: flex;
+    position: fixed;
+    margin-top: auto;
+    flex-direction: column;
+	display: flex;
+}
+/*Buttons (Fav, Settings, Info)*/
+._3qDWQGB0rtwM3qpXTb11Q- {
+	background-color: #424953c9;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+}
+._3qDWQGB0rtwM3qpXTb11Q- .zvLq1GUCH3yLuqv_TXBJ1 .SVGIcon_Information {
+    width: 18px;
+    height: 18px;
+}
+.lO1IF132jJ1gc9yz2HYvV {
+    flex-flow: row-reverse;
+}
+.lO1IF132jJ1gc9yz2HYvV>:last-child {
+    margin-right: 10px;
+}
+._1EAxK56o5a9Nieu5HYkJ4k {
+    margin-top: 12px;
+}

@@ -1,0 +1,76 @@
+{
+  "UseDefaultPatches": true,
+
+
+    "Conditions": {
+        "SquaRE Elements": {
+            "description": "placeholder",
+            "default": "Enabled",
+            "values": {
+                "Disabled": {},
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "SquaREElements/SquaREElements.css"
+                    }
+                }
+            }
+        },
+        "Web SquaRE Elements": {
+            "description": "placeholder",
+            "default": "Enabled",
+            "values": {
+                "Disabled": {},
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": ["https://steamcommunity.com", "https://.*.steampowered.com"], "src": "WSREElements/WSREElements.css"
+                    }
+                }
+            }
+        },
+        "Fancy Lookin' Library [WIP]": {
+            "description": "placeholder",
+            "default": "Disabled",
+            "values": {
+                "Disabled": {},
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "FancyLibrary/FancyLibraryG.css"
+                    }
+                }
+            }
+        },
+        "Fancy Header": {
+            "description": "placeholder",
+            "default": "Not Changeable",
+            "values": {
+                "Not Changeable": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "FancyHeader/FancyHeader.css"
+                    },
+                    "TargetJs": {
+                        "affects": ["^Steam$"], "src": "FancyHeader/FancyHeaderTT.js"
+                    }
+                }
+            }
+        }
+    },
+
+  "author": ".Felixan",
+  "description": "placeholder",
+  "name": "SquaRE-UI DEV",
+  "version": "0.6.3",
+
+  "github": {
+    "owner": "dotFelixan",
+    "repo_name": "SquaRE-UI"
+  },
+  
+  "tags": [
+    "Square",
+    "Redesign",
+    "Customizable"
+  ],
+  
+  "header_image": "https://i.imgur.com/3mPRQUz.png",
+  "splash_image": "https://i.imgur.com/3mPRQUz.png"
+}
