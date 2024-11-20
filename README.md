@@ -7,7 +7,7 @@
 
 (Still Mega WIP, Things may change.)
 
-<img src="github/screenshot2" alt="Screenshot"/>
+<img src="github/screenshot1" alt="Screenshot"/>
 
 </div>
 
