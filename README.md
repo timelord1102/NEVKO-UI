@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="github/logo/logo.png" alt="nevkologo" width="200"/>
+<img src="github/logo/nevkologo.png" alt="nevkologo" width="200"/>
 
 # NEVKO-UI
 ### Theme for Millennium for Steam
 
 (Still Mega WIP, Things may change.)
 
-<img src="github/screenshots" alt="screenshot2"/>
+<img src="github/screenshot2" alt="Screenshot"/>
 
 </div>
 
