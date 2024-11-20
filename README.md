@@ -1,5 +1,15 @@
-# SquaRE-UI
- Theme for Millennium for Steam
+<div align="center">
+
+<img src="github/logo/logo.png" alt="nevkologo" width="200"/>
+
+# NEVKO-UI
+### Theme for Millennium for Steam
+
+(Still Mega WIP, Things may change.)
+
+<img src="github/screenshots" alt="screenshot2"/>
+
+</div>
 
  # TODO:
  1. Accents [CSS]
