@@ -34,7 +34,7 @@
                 "Disabled": {},
                 "Enabled": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "FancyTooltips/FancyTooltips.css"
+                        "affects": ["Supernav$", "Menu$"], "src": "FancyTooltips/FancyTooltips.css"
                     }
                 }
             }
@@ -60,7 +60,7 @@
                         "affects": ["^Steam$"], "src": "FancyHeader/FancyHeader.css"
                     },
                     "TargetJs": {
-                        "affects": ["^Steam$"], "src": "FancyHeader/FancyHeaderTT.js"
+                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "FancyHeader/FancyHeaderTT.js"
                     }
                 }
             }
@@ -70,7 +70,7 @@
   "author": ".Felixan",
   "description": "placeholder",
   "name": "NEVKO-UI",
-  "version": "0.7.0",
+  "version": "0.7.1",
 
   "github": {
     "owner": "dotFelixan",
