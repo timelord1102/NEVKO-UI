@@ -18,7 +18,7 @@
  4. etc.
 
 # CREDITS -
-### Authors of the topics I borrowed code from:
+### Authors of themes i borrowed code from:
 
 shdwnstr_ - [JS & CSS Code from CompactHeader]
 
