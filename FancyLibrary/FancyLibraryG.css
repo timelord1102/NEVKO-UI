@@ -372,10 +372,6 @@ div.NarrowRightPanel ._3yTl3RiWfo-Itg-xp967wP {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
-    margin-left: 12px;
-	font-size: 12px;
-}
 .LibraryDisplaySizeMedium ._3YO5BpDmZERh_G8kaWbaSJ {
     width: 240px;
 }
@@ -504,4 +500,13 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
 }
 ._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
     padding-top: 0px;
+}
+.z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
+    left: 25px;
+    border-radius: 4px;
+    top: 70px;
+    background: #424953c9;
+    padding: 14.5px;
+    font-size: 12px;
+    position: fixed;
 }
