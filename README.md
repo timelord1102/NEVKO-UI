@@ -16,3 +16,13 @@
  2. Solar Icons [CSS]
  3. Popup Settings (Big Pic, VR) [JS] 
  4. etc.
+
+# CREDITS -
+### Authors of the topics I borrowed code from:
+
+shdwnstr_ - [JS & CSS Code from CompactHeader]
+ShadowTeam - [CSS Code for Menu]
+
+### People who helped me with the code:
+
+motionarium - Extra Buttons & Driver [JS]
