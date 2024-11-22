@@ -27,9 +27,21 @@
                 }
             }
         },
-        "Fancy Lookin' Library [WIP]": {
+        "Fancy Tooltips [WIP]": {
             "description": "placeholder",
-            "default": "Disabled",
+            "default": "Enabled",
+            "values": {
+                "Disabled": {},
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "FancyTooltips/FancyTooltips.css"
+                    }
+                }
+            }
+        },
+        "Fancy Library [WIP]": {
+            "description": "placeholder",
+            "default": "Enabled",
             "values": {
                 "Disabled": {},
                 "Enabled": {
