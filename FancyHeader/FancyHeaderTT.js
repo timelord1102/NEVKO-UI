@@ -26,3 +26,17 @@ new MutationObserver((mutations) => {
 function changeOffset(bottom, offsetWidth) {
 	bottom.style.setProperty('right', `${offsetWidth + 121}px`, 'important')
 };
+
+// Activity Button - motionarium & dotfelixan сode
+let main = document.getElementsByClassName("HoGkIKTQnkTEFGjqO-GMl")
+let main_acc = document.getElementsByClassName('_2jXHP0742MyApMUVUM8IFn')[0].cloneNode(true)
+let hr_acc = document.getElementsByClassName('_2jXHP0742MyApMUVUM8IFn')[4].cloneNode(true)
+main_acc.innerHTML = 'Активности'
+
+main_acc.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location = 'steam://url/SteamIDFriendsPage';
+});
+
+main[0].insertBefore(hr_acc, main[0].firstElementChild)
+main[0].insertBefore(main_acc, main[0].firstElementChild)
