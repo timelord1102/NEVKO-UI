@@ -117,7 +117,8 @@
     border-radius: 16px;
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._1sZgBDTw5NH-yuVDZK1SUU {
-    width: 98%;
+    width: 69%;
+    max-width: 69%;
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
     margin-left: unset !important;
@@ -297,7 +298,8 @@ div.NarrowRightPanel ._1kiZKVbDe-9Ikootk57kpA {
 	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
 }
 div.NarrowRightPanel ._3yTl3RiWfo-Itg-xp967wP {
-    max-width: 66% !important;
+    max-width: 100% !important;
+    width: 94%;
 }
 ._3yTl3RiWfo-Itg-xp967wP {
 	max-width: 69% !important;
