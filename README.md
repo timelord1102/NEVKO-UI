@@ -21,6 +21,7 @@
 ### Authors of the topics I borrowed code from:
 
 shdwnstr_ - [JS & CSS Code from CompactHeader]
+
 ShadowTeam - [CSS Code for Menu]
 
 ### People who helped me with the code:
