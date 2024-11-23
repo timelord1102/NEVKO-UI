@@ -18,7 +18,9 @@
  1. Accents [CSS]
  2. Solar Icons [CSS]
  3. Popup Settings (Big Pic, VR) [JS] 
- 4. etc.
+ 4. Web Alt Desigh [CSS, Maybe JS]
+ 5. Everything Customized by User [Json. Millennium Settings]
+ 6. etc. [CSS & JS]
 
 # CREDITS -
 ### Authors of themes i borrowed code from:
