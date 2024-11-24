@@ -236,7 +236,7 @@ div.NarrowRightPanel ._1kiZKVbDe-9Ikootk57kpA {
     margin-top: 38px;
 }
 .A14yd24JRjhFI-Q1ae6tN {
-    bottom: -36px;
+    bottom: -42px;
 }
 ._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
 	display: none;
@@ -703,4 +703,36 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
     height: 105%;
     margin-top: -1px;
     max-height: 105%;
+}
+._1J21tLst5SEhBPkVRT53UV._28ZR8gHitOrJaSLxcIAl2p {
+	height: 80px;
+	color: #94a1a6;
+}
+._1J21tLst5SEhBPkVRT53UV div {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    box-shadow: unset;
+    padding: 4px 6px 4px 6px;
+    text-transform: unset;
+    letter-spacing: 1px;
+    width: 30px;
+    height: 33px;
+	border: 1px solid #6767744a;
+	color: #ffffff00;
+	background: #161d25a8;
+	display: flex;
+    justify-content: center;
+	border-radius: 10px;
+    align-items: center;
+	transition: .1s all ease;
+}
+._1J21tLst5SEhBPkVRT53UV:after {
+    content: "🡩";
+    visibility: visible;
+    display: block;
+    position: absolute;
+	margin-left: 46.1px;
+	margin-top: 19.49px;
+	transition: .1s all ease;
 }
