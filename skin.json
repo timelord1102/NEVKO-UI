@@ -27,14 +27,14 @@
                 }
             }
         },
-        "Fancy Tooltips [WIP]": {
+        "Fancy Menu": {
             "description": "placeholder",
             "default": "Enabled",
             "values": {
                 "Disabled": {},
                 "Enabled": {
                     "TargetCss": {
-                        "affects": ["Supernav$", "Menu$"], "src": "FancyTooltips/FancyTooltips.css"
+                        "affects": ["Supernav$", "Menu$"], "src": "FancyMenu/FancyMenu.css"
                     }
                 }
             }
