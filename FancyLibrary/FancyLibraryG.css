@@ -490,9 +490,6 @@ div.NarrowRightPanel ._3yTl3RiWfo-Itg-xp967wP {
 	border-top: solid 1px #ffffff0f !important;
     padding-top: 14px !important;
 }
-._39bm0CkBxBjJsnPpAzoZlv {
-	margin-bottom: 10px;
-}
 button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
     margin-top: 4px;
 }
@@ -650,9 +647,6 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
     justify-content: center;
     align-items: center;
 }
-.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q ._3pcPRPvuGH7hEM33zLknZO {
-	display: none;
-}
 ._3Y87YQY56ZCOqhgcZFaDc5 {
     padding: 10px 20px 8px 20px;
 }
@@ -756,4 +750,57 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
 }
 .X40qiCKsKLskkN1pEsNNT ._1umjft7ymqKrhhjDroeBUO {
     flex-direction: row;
+}
+._39bm0CkBxBjJsnPpAzoZlv {
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+button.DialogButton._3Cdin80d-hVsakHUZboheb {
+    align-self: center;
+	border-radius: 4px;
+}
+._31ptFGGMZrSQc5BCX1e5lm._2G5B7o_YoI__u11--EFjal {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+._1yWgPveQ73QeYCdLcs6oFQ {
+    flex-direction: row-reverse;
+}
+.EhWKRN0QCGwfB7zcx7DwQ {
+    flex-direction: row-reverse;
+}
+._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q, 
+._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K, 
+._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB {
+    flex-direction: row-reverse;
+	padding-left: unset;
+	padding-right: 6px;
+}
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+    justify-content: center;
+	border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-radius: 10px 10px 0px 0px;
+    border-color: #9aa1ab5c;
+    padding-top: 4px;
+    width: 30%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 5px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q ._3pcPRPvuGH7hEM33zLknZO {
+    height: 1px;
+	width: 60%;
+    align-self: center;
+    background: #575c62ad;
+    margin-top: 28px;
+	margin-left: unset;
+	box-shadow: 0px 3px 8px 0px #0000007a;
 }
