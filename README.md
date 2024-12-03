@@ -24,7 +24,8 @@
  6. AMOLED/Material You/etc. Color Scheme (For Steam & Web) [CSS]
  7. Better Web Store [CSS]
  8. Public Figma
- 9. etc. [CSS & JS]
+ 9. Custom checkmark next to nickname for donation/help with code [CSS]
+ 10. etc. [CSS & JS]
 
 # CREDITS -
 ### Authors of themes i borrowed code from:
