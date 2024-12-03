@@ -24,7 +24,7 @@
  6. AMOLED/Material You/etc. Color Scheme (For Steam & Web) [CSS]
  7. Better Web Store [CSS]
  8. Public Figma
- 9. Custom Icons(idk how it pronouns in eng) next to nickname for donation/help with code [CSS]
+ 9. Custom badges next to nickname for donation/help with code [CSS]
  10. etc. [CSS & JS]
 
 # CREDITS -
