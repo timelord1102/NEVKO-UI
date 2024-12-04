@@ -3,18 +3,20 @@
 	left: unset;
 	width: 8px;
     height: 8px;
-    border-radius: 2px;
+    border-radius: 24%;
     outline: solid 2px #272d37;
 	margin-bottom: 1px;
+	margin-right: 1px;
 }
 ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
     top: unset;
 	left: unset;
 	width: 8px;
     height: 8px;
-    border-radius: 2px;
+    border-radius: 24%;
     outline: solid 2px #272d37;
 	margin-bottom: 1px;
+	margin-right: 1px;
 }
 
 ._3xUpb5DWXPFNcHHIcv-9pe.right,
@@ -76,7 +78,7 @@
     fill: #42b1f6b8 !important;
 }
 .KxAI_M9gWx3OnKSshHOs6 .SVGIcon_MobilePhone path {
-    fill: #a0a0a0b3 !important;
+    fill: #a0a0a0b3;
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {

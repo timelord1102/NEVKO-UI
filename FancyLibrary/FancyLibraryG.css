@@ -112,6 +112,7 @@
 }
 ._3BFcmjAaMyP6GTPwc0VyWi {
     border: 8px #161d25 solid;
+	border-top: 0px;
 }
 ._2Dd4T78PcCTUVgOtDGFY5j {
     border-radius: 16px;
@@ -121,7 +122,7 @@
     max-width: 70%;
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
-    margin-left: unset !important;
+    margin-left: 8px !important;
 }
 /*Information (Date, Time in Game, etc.)*/
 ._1YbtIWcfkQJOysLXQbwzRf .zjtAIAWI6HE0oCtJzw6Qt {
@@ -405,7 +406,7 @@ div.NarrowRightPanel ._3yTl3RiWfo-Itg-xp967wP {
 	border-radius: 10px;
 }
 ._27RcNu8aXKBpYkHcNNrt-X ._2aor4XVOYzN1PBSREk0UbO {
-    padding-right: 32px;
+    padding-right: 30px;
 }
 ._2r4TK4BAuU-J4FuF_O7v_5 {
 	background: #32373ddb;
@@ -445,7 +446,8 @@ div.NarrowRightPanel ._3yTl3RiWfo-Itg-xp967wP {
 	box-shadow: 0 3px .4em #00000061;
 }
 ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
-    margin-top: 17px;
+    margin-top: 10px;
+	margin-bottom: 10px;
 }
 ._2bqRppbRWGNAZV5lfubW7- {
     margin-bottom: 0px;
@@ -699,13 +701,15 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
     max-height: 105%;
 }
 ._1J21tLst5SEhBPkVRT53UV._28ZR8gHitOrJaSLxcIAl2p {
-	height: 80px;
+	height: 86px;
 	color: #94a1a6;
+	transform: unset;
+	transition: .1s all ease;
 }
 ._1J21tLst5SEhBPkVRT53UV div {
     position: absolute;
-    left: 30px;
-    bottom: 30px;
+    left: 48px;
+    bottom: 48px;
     box-shadow: unset;
     padding: 4px 6px 4px 6px;
     text-transform: unset;
@@ -718,17 +722,20 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe {
 	display: flex;
     justify-content: center;
 	border-radius: 10px;
+	transform: unset !important;
     align-items: center;
-	transition: .1s all ease;
 }
 ._1J21tLst5SEhBPkVRT53UV:after {
     content: "🡩";
     visibility: visible;
     display: block;
     position: absolute;
-	margin-left: 46.1px;
-	margin-top: 19.49px;
-	transition: .1s all ease;
+	margin-left: 64.2px;
+	margin-top: 7.499px;
+	transform: unset !important;
+}
+._1J21tLst5SEhBPkVRT53UV {
+	transform: unset !important;
 }
 ._1GCZAht_W2I3Elndk5cU0- > .Panel > .nibodjvvrm86uCfnnAn4g.Medium {
     height: 42px;
@@ -782,27 +789,59 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb {
 }
 .S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
     justify-content: center;
-	border-top: 3px solid;
+	border-top: 2px solid;
 	margin-top: 4px;
-    border-right: 3px solid;
-    border-left: 3px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
     border-radius: 10px 10px 0px 0px;
     border-color: #9aa1ab5c;
     padding-top: 4px;
     width: 30%;
 	margin-left: auto;
     margin-right: auto;
-	padding-bottom: 5px;
+	padding-bottom: 4px;
 	font-weight: bold;
 	letter-spacing: 1.5px;
+	background: #41475352;
 }
 .S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q ._3pcPRPvuGH7hEM33zLknZO {
-    height: 1px;
-	width: 60%;
+    height: 2px;
+	width: 62%;
     align-self: center;
     background: #575c62ad;
 	position: fixed;
     margin-top: 28px;
 	margin-left: unset;
-	box-shadow: 0px 3px 8px 0px #0000007a;
+    box-shadow: 0px 4px 8px 0px #00000059;
 }
+._27RcNu8aXKBpYkHcNNrt-X ._11kuVRYZvWXn-3rBJ_6yL8._3wbndu1paxHkciYr4rFJH5 {
+    display: none;
+}
+._1J21tLst5SEhBPkVRT53UV {
+    height: unset;
+    transition: .1s linear;
+    padding-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition-property: transform, opacity, filter;
+    transition-duration: .3s, .3s, .12s;
+    transition-timing-function: unset;
+    color: unset;
+}
+._1EC1xjjUGqI7fqX6PVzJA3 {
+    display: flex;
+    color: #8c9193;
+    font-size: 13px;
+    padding: 8px 24px;
+    align-self: center;
+    text-align: center;
+    border-radius: 6px;
+	background: #363b43;
+	padding: 8px 24px;
+	background: #363b43;
+    margin-bottom: 10px;
+}
+.YFAtL5H6txGXk5T_IhpUF {
+    padding: 0px 10px;
+}
+	
