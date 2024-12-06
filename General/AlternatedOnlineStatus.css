@@ -1,9 +1,9 @@
 ._3xUpb5DWXPFNcHHIcv-9pe.right {
     top: unset;
 	left: unset;
-	width: 8px;
-    height: 8px;
-    border-radius: 24%;
+    width: 20%;
+    height: 20%;
+    border-radius: 28%;
     outline: solid 2px #272d37;
 	margin-bottom: 1px;
 	margin-right: 1px;
@@ -11,12 +11,16 @@
 ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
     top: unset;
 	left: unset;
-	width: 8px;
-    height: 8px;
-    border-radius: 24%;
+    width: 20%;
+    height: 20%;
+    border-radius: 28%;
     outline: solid 2px #272d37;
 	margin-bottom: 1px;
 	margin-right: 1px;
+}
+._3yD46y5pd3zOGR7CzKs0mC .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right {
+    width: 28%;
+    height: 28%;
 }
 
 ._3xUpb5DWXPFNcHHIcv-9pe.right,
