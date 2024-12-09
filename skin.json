@@ -1,5 +1,6 @@
 {
   "UseDefaultPatches": true,
+  "Steam-WebKit": "webkit.css",
 
 
     "Conditions": {
@@ -49,7 +50,7 @@
                         "affects": ["^Steam$"], "src": "FancyLibrary/FancyLibraryG.css"
                     },
                     "TargetJs": {
-                        "affects": ["^Steam$"], "src": "FancyHeader/FancyLibraryTT.js"
+                        "affects": ["^Steam$"], "src": "FancyLibrary/FancyLibraryTT.js"
                     }
                 }
             }
@@ -61,7 +62,7 @@
                 "Disabled": {},
                 "Enabled": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/AlternatedOnlineIcons.css"
+                        "affects": ["^Steam$"], "src": "General/AlternatedOnlineStatus.css"
                     }
                 }
             }

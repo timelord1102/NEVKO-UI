@@ -1,3 +1,4 @@
+		// Compact Buttons - Shadow code
 new MutationObserver((mutations) => {
 	mutations.forEach(function(mutation) {
 		mutation.addedNodes.forEach(function(addedNode) {
@@ -19,7 +20,7 @@ function changeOffset(bottom, offsetWidth) {
 	bottom.style.setProperty('right', `${offsetWidth + 121}px`, 'important')
 };
 
-		// Activity Button - motionarium & dotfelixan сode
+		// Activity Button - motionarium & dotFelixan сode
 const translations = {
   ru: "Активности",
   en: "Activities",
