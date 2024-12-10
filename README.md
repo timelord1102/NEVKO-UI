@@ -20,7 +20,7 @@
  2. Solar Icons [CSS]
  3. Popup Settings (for - Big Pic, VR) [JS] 
  4. Web Alt Design [CSS, Maybe JS]
- 5. Everything Customized by User [Json. Millennium Settings]
+ 5. Everything Customized by User [Json. Millennium Settings] | Status: Mostly Done
  6. AMOLED/Material You/etc. Color Scheme (For Steam & Web) [CSS]
  7. Better Web Store [CSS]
  8. Public Figma

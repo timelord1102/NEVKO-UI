@@ -1,116 +1,324 @@
 {
-  "UseDefaultPatches": true,
-  "Steam-WebKit": "webkit.css",
-
-
-    "Conditions": {
-        "SquaRE Elements": {
-            "description": "placeholder",
-            "default": "Enabled",
+	
+	"UseDefaultPatches": true,	
+    "Steam-WebKit": "webkit.css",	
+    "RootColors": "Configs/CSS/root.css",
+	
+    "Conditions": {			
+	
+        "Badges for Contributes": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "General",
             "values": {
-                "Disabled": {},
-                "Enabled": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"], "src": "SquaREElements/SquaREElements.css"
-                    }
-                }
+                "no": {},
+                "yes": {}
             }
         },
-        "Web SquaRE Elements": {
-            "description": "placeholder",
-            "default": "Enabled",
+        "Rounding Avatars": {
+            "description": "PlaceHolder",
+            "default": "Legacy",
+            "tab": "General",
             "values": {
-                "Disabled": {},
-                "Enabled": {
+                "None": {},
+                "Rounded Square": {},
+				"Circle": {},
+				"Legacy": {
                     "TargetCss": {
-                        "affects": ["https://steamcommunity.com", "https://.*.steampowered.com"], "src": "WSREElements/WSREElements.css"
+                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/Legacy/FancyAvatarsLegacy.css"
                     }
-                }
+				}
             }
-        },
-        "Fancy Menu": {
-            "description": "placeholder",
-            "default": "Enabled",
+		},
+        "Alternative Online Indicator": {
+            "description": "PlaceHolder",
+            "default": "Legacy",
+            "tab": "General",
             "values": {
                 "Disabled": {},
-                "Enabled": {
+                "Enabled": {},
+				"Legacy": {
                     "TargetCss": {
-                        "affects": ["Supernav$", "Menu$"], "src": "FancyMenu/FancyMenu.css"
+                        "affects": ["^Steam$"], "src": "General/Alternative Online Indicator/Legacy/AlternatedOnlineStatusLegacy.css"
                     }
-                }
+				}
             }
-        },
-        "Fancy Library [WIP]": {
-            "description": "placeholder",
-            "default": "Enabled",
+		},
+        	
+        "Refresh Header": {
+            "description": "PlaceHolder",
+            "default": "Legacy",
+            "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
-                "Enabled": {
+				"Enabled": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "FancyLibrary/FancyLibraryG.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/RefreshHeader.css"
+                    }
+				},
+                "Legacy": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Legacy/FancyHeaderLegacy.css"
                     },
                     "TargetJs": {
-                        "affects": ["^Steam$"], "src": "FancyLibrary/FancyLibraryTT.js"
+                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "RefreshUI/Main UI/Legacy/FancyHeaderLegacy.js"
                     }
                 }
-            }
-        },
-        "Alternated Online Icons": {
-            "description": "placeholder",
-            "default": "Enabled",
+			}
+		},
+        "Refresh Library": {
+            "description": "PlaceHolder",
+            "default": "Legacy",
+            "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
-                "Enabled": {
+				"Enabled": {},
+                "Legacy": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/AlternatedOnlineStatus.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Legacy/FancyLibraryLegacy.css"
                     }
                 }
             }
         },
-        "Fancy Avatars": {
-            "description": "placeholder",
-            "default": "Enabled",
+        "Refresh Friends": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Refresh Design",
+            "values": {
+                "no": {},
+                "yes": {}
+            }
+        },
+        "Refresh Menu": {
+            "description": "PlaceHolder",
+            "default": "Legacy",
+            "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
-                "Enabled": {
+				"Enabled": {},
+                "Legacy": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/FancyAvatars.css"
+                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "RefreshUI/Menu UI/Legacy/FancyMenuLegacy.css"
                     }
                 }
             }
         },
-        "Fancy Header": {
-            "description": "placeholder",
-            "default": "Not Changeable",
+        "Refresh Settings": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Refresh Design",
             "values": {
-                "Not Changeable": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"], "src": "FancyHeader/FancyHeader.css"
-                    },
-                    "TargetJs": {
-                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "FancyHeader/FancyHeaderTT.js"
-                    }
-                }
+                "no": {},
+                "yes": {}
+            }
+        },
+        "Refresh Loading Screens": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Refresh Design",
+            "values": {
+                "no": {},
+                "yes": {}
+            }
+        },
+				
+        "Refresh Store": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Refresh Design [WEB]",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Refresh Profile": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Refresh Design [WEB]",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },	
+        "Refresh Community": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Refresh Design [WEB]",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+
+        "PlaceHolderC1": {
+            "description": "PlaceHolder",
+            "default": "Disabled",
+            "tab": "Refresh Design Config",
+            "values": {
+                "Disabled": {},
+                "Enabled": {}
+            }
+        },
+        "PlaceHolderC2": {
+            "description": "PlaceHolder",
+            "default": "Disabled",
+            "tab": "Refresh Design Config",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },			
+			
+        "Theme Color Scheme": {
+            "description": "PlaceHolder",
+            "default": "Default",
+            "tab": "Pallete Scheme",
+            "values": {
+                "Default": {},
+				"AMOLED": {},
+                "Material You": {}
+            }
+        },
+        "Material You Accent": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Pallete Scheme",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },	
+		
+		"PlaceHolderHD1": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD2": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD3": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD4": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD5": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD6": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD7": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD8": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD9": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"PlaceHolderHD10": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Hider",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		
+        "Custom Accent": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Experimental",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+		"Alternative Color for Online Indicator": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Experimental",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Extra Popup Menu": {
+            "description": "PlaceHolder",
+            "default": "no",
+            "tab": "Experimental",
+            "values": {
+                "yes": {},
+                "no": {}
             }
         }
+		
+	},
+	
+    "author": ".Felixan",
+    "description": "Refresh Design.",
+    "funding": { "boosty": "dotfelixan" },
+    "github": {
+        "owner": "dotFelixan",
+        "repo_name": "NEVKO-UI"
     },
-
-  "author": ".Felixan",
-  "description": "placeholder",
-  "name": "NEVKO-UI",
-  "version": "0.7.1",
-
-  "github": {
-    "owner": "dotFelixan",
-    "repo_name": "NEVKO-UI"
-  },
-  
-  "tags": [
-    "Square",
-    "Redesign",
-    "Customizable"
-  ],
-  
-  "header_image": "https://i.imgur.com/3mPRQUz.png",
-  "splash_image": "https://i.imgur.com/3mPRQUz.png"
+	
+    "name": "NEVKO-UI",
+    "version": "0.9.0",
+    "tags": [ "Refresh", "AMOLED", "Customizable", "WIP", "SquaRE" ]
 }
