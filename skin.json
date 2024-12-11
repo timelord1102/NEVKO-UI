@@ -4,6 +4,22 @@
     "Steam-WebKit": "webkit.css",	
     "RootColors": "Configs/CSS/root.css",
 	
+	"Patches": [
+    {
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Remover/Main UI/RemoveShadow.css"
+    },
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Remover/Main UI/RemoveUseless.css"
+    },
+	
+	{
+        "MatchRegexString": ".ModalDialogPopup",
+        "TargetCss": "Fixes/Fix Location/Settings UI/SVGLocation.css"
+    }
+],
+	
     "Conditions": {			
 	
         "Badges for Contributes": {
@@ -53,7 +69,7 @@
                 "Disabled": {},
 				"Enabled": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/RefreshHeader.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Header Code.css"
                     }
 				},
                 "Legacy": {
@@ -150,16 +166,58 @@
             }
         },
 
-        "PlaceHolderC1": {
+        "[Header] - Move the Bottom Buttons to the Top Bar.": {
             "description": "PlaceHolder",
-            "default": "Disabled",
+            "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
-                "Disabled": {},
-                "Enabled": {}
+                "yes": {},
+                "no": {}
             }
         },
-        "PlaceHolderC2": {
+		"[Header] - Move URL Bar to Bottom.": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Refresh Design Config",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Bottom URL Bar.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "[Header] - Reorder Main Buttons.": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Refresh Design Config",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Reorder Buttons.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "[Header] - Hide Profile Button.": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Refresh Design Config",
+            "values": {
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$", "Menu$", "SuperNav$"], "src": "RefreshUI/Main UI/Refresh Header/Account Style/Hide Profile Button.css"  
+					},
+					"TargetJs": {
+						"affects": ["Menu$", "SuperNav$"], "src": "RefreshUI/Main UI/Refresh Header/Account Style/Profile Buttons in Account Menu.js"
+					}
+                },
+                "no": {}
+            }
+        },        
+        "[Library] - PlaceHolder2": {
             "description": "PlaceHolder",
             "default": "Disabled",
             "tab": "Refresh Design Config",
@@ -261,24 +319,6 @@
                 "no": {}
             }
         },
-		"PlaceHolderHD9": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD10": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
 		
         "Custom Accent": {
             "description": "PlaceHolder",
@@ -306,13 +346,11 @@
                 "yes": {},
                 "no": {}
             }
-        }
-		
+        }	
 	},
 	
     "author": ".Felixan",
     "description": "Refresh Design.",
-    "funding": { "boosty": "dotfelixan" },
     "github": {
         "owner": "dotFelixan",
         "repo_name": "NEVKO-UI"

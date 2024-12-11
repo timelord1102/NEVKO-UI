@@ -1,0 +1,33 @@
+/*Change Location URL Bar*/
+._1bGewp3tfzqAF6fVTFFUOz {
+    flex-direction: column-reverse;
+}
+/*Change Height URL Bar*/
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    padding: 8px 4px 8px 9px;
+    background: #161D25;
+    box-shadow: unset;
+}
+/*Change Refresh Style Button*/
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09 {
+	padding: 2px 0px 3px 4px;
+    background: #272D37;
+	border-radius: 4px;
+}
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
+    background: #2C333D;
+	border-radius: 4px;
+}
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3izqEKa-zuPIrUDSm1bRvf:hover {
+    color: #FFFFFF !important
+}
+/*Change URL Style Bar*/
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
+	border-radius: 4px !important;
+	margin-left: 5px !important;
+	padding: 3px 16px 2px 8px;
+}
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
+	border-radius: 4px !important;
+    background: #2C333D;
+}
