@@ -16,6 +16,13 @@
 	border-radius: 4px;
     background: rgba(103, 112, 123, .2);
 }
+._1TdaAqMFadi0UTqilrkelR:hover,	
+._2foCkpRXhqq0UGVE50BWqj:hover,
+.ip-YZhijAMZcuRoXBGiye:hover {
+	border-radius: 4px;
+    background: #2C333D;
+	transition: .2s linear;
+}
 ._3vCzSrrXZzZjVJFZNg9SGu {
     padding: 0px 18px;
 }
