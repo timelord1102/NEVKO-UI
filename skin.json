@@ -171,8 +171,19 @@
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
-                "yes": {},
-                "no": {}
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Compact Buttons/Compact Buttons.css"
+                    },
+					"TargetJs": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Compact Buttons/Compact Buttons.js"
+                    }
+                },
+                "no": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Fancy Bottom.css"
+                    }
+				}
             }
         },
 		"[Header] - Move URL Bar to Bottom.": {
@@ -182,7 +193,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Bottom URL Bar.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Bottom URL Bar.css"
                     }
                 },
                 "no": {}
@@ -190,12 +201,12 @@
         },
         "[Header] - Reorder Main Buttons.": {
             "description": "PlaceHolder",
-            "default": "yes",
+            "default": "no",
             "tab": "Refresh Design Config",
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Reorder Buttons.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Reorder Buttons.css"
                     }
                 },
                 "no": {}

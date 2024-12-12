@@ -51,7 +51,7 @@
 /*Change Style Buttons*/
 ._3Z3ohQ8-1NKnCZkbS6fvy {
 	padding-top: 19px !important;
-	left: 110px !important;
+	left: 116px !important;
 	position: absolute;
 }
 ._7AlhCx3XGzBeIrQaCneUD {
@@ -77,7 +77,7 @@
 ._7AlhCx3XGzBeIrQaCneUD {
 	font-family: unset !important;
 	padding: 0px 15px !important;
-	text-transform: capitalize;
+	text-transform: math-auto;
 	font-size: 14px !important;
 	margin-bottom: 14px;
 	font-weight: bold;
@@ -120,7 +120,7 @@
 	transition: .05s linear;
 }
 ._1Ky59qmywxOUtNcI1cgmkX {
-    padding-left: 10px;
+    padding-left: 12px;
 }
 .bSKGlAJG2UVWTsntEJY2v {
     gap: 8.5px
