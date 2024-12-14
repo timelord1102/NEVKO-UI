@@ -7,9 +7,6 @@
 
 (Still Mega WIP, Things may change.)
 
-(And when I'm finished with the design, I'll rewrite all the code and make everything customized)
-
-
 <img src="github/screenshots/newscreenshot3.png" alt="screenshot"/>
 <img src="github/screenshots/newscreenshotv.png" alt="screenshot"/>
 
