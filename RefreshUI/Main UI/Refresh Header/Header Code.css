@@ -25,6 +25,10 @@
 ._1_yS5UP7el0aN4vntx3dx {
     border-radius: 4px;
 }
+/*Remove Black Thing*/
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX {
+    background-color: #161d25;
+}
 
 	/* Change Style Top Bar */
 /*Different Height Style*/
@@ -216,4 +220,8 @@
 }
 .DesktopUI .title-area .title-bar-actions {
     margin-right: 18px;
+}
+/* Add Roundnes for Game Icon */
+._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border-radius: 3px;
 }

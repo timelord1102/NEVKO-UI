@@ -4,22 +4,6 @@
     "Steam-WebKit": "webkit.css",	
     "RootColors": "Configs/CSS/root.css",
 	
-	"Patches": [
-    {
-        "MatchRegexString": "^Steam$",
-        "TargetCss": "Fixes/Remover/Main UI/RemoveShadow.css"
-    },
-	{
-        "MatchRegexString": "^Steam$",
-        "TargetCss": "Fixes/Remover/Main UI/RemoveUseless.css"
-    },
-	
-	{
-        "MatchRegexString": ".ModalDialogPopup",
-        "TargetCss": "Fixes/Fix Location/Settings UI/SVGLocation.css"
-    }
-],
-	
     "Conditions": {			
 	
         "Badges for Contributes": {
@@ -33,37 +17,39 @@
         },
         "Rounding Avatars": {
             "description": "PlaceHolder",
-            "default": "Legacy",
+            "default": "Rounded Square",
             "tab": "General",
             "values": {
-                "None": {},
-                "Rounded Square": {},
-				"Circle": {},
-				"Legacy": {
+                "None": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/Legacy/FancyAvatarsLegacy.css"
+                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/None/Main Avatars.css"
+                    }
+				},
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/Rounded Square/Main Avatars.css"
+                    }
+				},
+				"Circle": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/Circle/Main Avatars.css"
                     }
 				}
             }
 		},
         "Alternative Online Indicator": {
             "description": "PlaceHolder",
-            "default": "Legacy",
+            "default": "Disabled",
             "tab": "General",
             "values": {
                 "Disabled": {},
-                "Enabled": {},
-				"Legacy": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/Alternative Online Indicator/Legacy/AlternatedOnlineStatusLegacy.css"
-                    }
-				}
+                "Enabled": {}
             }
 		},
         	
         "Refresh Header": {
             "description": "PlaceHolder",
-            "default": "Legacy",
+            "default": "Enabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
@@ -71,20 +57,12 @@
                     "TargetCss": {
                         "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Header Code.css"
                     }
-				},
-                "Legacy": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Legacy/FancyHeaderLegacy.css"
-                    },
-                    "TargetJs": {
-                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "RefreshUI/Main UI/Legacy/FancyHeaderLegacy.js"
-                    }
-                }
+				}
 			}
 		},
         "Refresh Library": {
             "description": "PlaceHolder",
-            "default": "Legacy",
+            "default": "Disabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
@@ -98,75 +76,70 @@
         },
         "Refresh Friends": {
             "description": "PlaceHolder",
-            "default": "yes",
+            "default": "Enabled",
             "tab": "Refresh Design",
             "values": {
-                "no": {},
-                "yes": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },
         "Refresh Menu": {
             "description": "PlaceHolder",
-            "default": "Legacy",
+            "default": "Enabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
-				"Enabled": {},
-                "Legacy": {
-                    "TargetCss": {
-                        "affects": ["^Steam$", "Supernav$", "Menu$"], "src": "RefreshUI/Menu UI/Legacy/FancyMenuLegacy.css"
-                    }
-                }
+				"Enabled": {}
             }
         },
         "Refresh Settings": {
             "description": "PlaceHolder",
-            "default": "yes",
+            "default": "Enabled",
             "tab": "Refresh Design",
             "values": {
-                "no": {},
-                "yes": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },
         "Refresh Loading Screens": {
             "description": "PlaceHolder",
-            "default": "no",
+            "default": "Enabled",
             "tab": "Refresh Design",
             "values": {
-                "no": {},
-                "yes": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },
 				
         "Refresh Store": {
             "description": "PlaceHolder",
-            "default": "no",
+            "default": "Enabled",
             "tab": "Refresh Design [WEB]",
             "values": {
-                "yes": {},
-                "no": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },
         "Refresh Profile": {
             "description": "PlaceHolder",
-            "default": "no",
+            "default": "Enabled",
             "tab": "Refresh Design [WEB]",
             "values": {
-                "yes": {},
-                "no": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },	
         "Refresh Community": {
             "description": "PlaceHolder",
-            "default": "no",
+            "default": "Enabled",
             "tab": "Refresh Design [WEB]",
             "values": {
-                "yes": {},
-                "no": {}
+                "Disabled": {},
+				"Enabled": {}
             }
         },
 
-        "[Header] - Move the Bottom Buttons to the Top Bar.": {
+        "[Header] - Move Bottom Bar to Top Bar.": {
             "description": "PlaceHolder",
             "default": "yes",
             "tab": "Refresh Design Config",
@@ -227,16 +200,7 @@
                 },
                 "no": {}
             }
-        },        
-        "[Library] - PlaceHolder2": {
-            "description": "PlaceHolder",
-            "default": "Disabled",
-            "tab": "Refresh Design Config",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },			
+        },     				
 			
         "Theme Color Scheme": {
             "description": "PlaceHolder",
@@ -258,89 +222,21 @@
             }
         },	
 		
-		"PlaceHolderHD1": {
+		"[Account Menu] - Blur Account Name": {
             "description": "PlaceHolder",
-            "default": "no",
+            "default": "yes",
             "tab": "Hider",
             "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD2": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD3": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD4": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD5": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD6": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD7": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"PlaceHolderHD8": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Hider",
-            "values": {
-                "yes": {},
+                "yes": {				
+				"TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "Hider/Blur Account/Account.css"
+					}
+				},
                 "no": {}
             }
         },
 		
         "Custom Accent": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Experimental",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
-		"Alternative Color for Online Indicator": {
             "description": "PlaceHolder",
             "default": "no",
             "tab": "Experimental",
@@ -360,6 +256,26 @@
         }	
 	},
 	
+		"Patches": [
+    {
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Remover/Main UI/RemoveShadow.css"
+    },
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Remover/Main UI/RemoveUseless.css"
+    },
+	
+	{
+        "MatchRegexString": ".ModalDialogPopup",
+        "TargetCss": "Fixes/Fix Location/Settings UI/SVGLocation.css"
+    },
+		{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Return Old Style Tooltips/ROST.css"
+    }
+],
+	
     "author": ".Felixan",
     "description": "Refresh Design.",
     "github": {
@@ -368,6 +284,6 @@
     },
 	
     "name": "NEVKO-UI",
-    "version": "0.9.0",
+    "version": "0.9.01",
     "tags": [ "Refresh", "AMOLED", "Customizable", "WIP", "SquaRE" ]
 }

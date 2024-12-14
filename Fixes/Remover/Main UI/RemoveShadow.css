@@ -29,3 +29,10 @@
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
     box-shadow: unset;
 }
+
+/* Remove Shadow Things in Download icon */
+._3vCzSrrXZzZjVJFZNg9SGu ._2iJsgdTIX9Tj23rWnB7Q-c, 
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D ._21vPQjHoo0uwud5lfCD_x-, 
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D .IconBevel {
+    display: none !important;
+}

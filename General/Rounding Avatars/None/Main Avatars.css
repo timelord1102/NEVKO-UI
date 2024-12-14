@@ -1,0 +1,22 @@
+/* Replace SVG Online Icon */
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, 
+._3xUpb5DWXPFNcHHIcv-9pe {
+	visibility: hidden;
+}
+
+._3h-QRJGxnVOIExtHD1R0f2 {
+	outline: 1px solid;
+}
+/*offline*/ ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: #898989;
+}
+.online ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: #4cb4ff;
+}
+.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: #4c91ac;
+}
+.ingame ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: #8cd61d;
+}
