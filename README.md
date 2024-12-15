@@ -6,6 +6,7 @@
     </a>
 </p>
 
+<p align="center">
 # NEVKO-UI
 ### Theme for Millennium for Steam
 
@@ -18,8 +19,7 @@
  | Legacy Screenshot of Theme |
 | ------------------- | 
 | ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/newscreenshot3.png) |
-
-</div>
+</p>
 
 ## Current Features:
 
@@ -36,21 +36,21 @@
  
 ## TODO LIST:
 
-### Low Priority
+### Low Priority -
 
  1. Public Figma
  2. Popup Menu (Big Picture, VR Button) [JS] 
  3. "Open SteamDB" Button in Steam Menu [JS]
  4. Fixing Steam Color/Design [CSS]
 
-### Medium Priority
+### Medium Priority -
 
  1. Solar Icons
  2. AMOLED/Material You/etc. Pallete Scheme [CSS]
  3. WEB Alt Store [CSS & JS]
  4. Custom Badges for Users Who Donated/Help With Code [CSS]
 
-### High Priority
+### High Priority -
 
  1. Refresh Library [CSS, Maybe JS]
  2. WEB Alt Design (Profile, Community, etc.) [CSS]
