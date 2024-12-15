@@ -37,7 +37,6 @@
 * Hider: [Account Button] - Hide Balance
  
 ## TODO LIST:
-
 ### Low Priority -
 
  1. Public Figma
@@ -60,7 +59,6 @@
 ...And More [CSS & JS]
 
 ## CREDITS:
-
 ### Authors from Who I Borrowed the Code:
 
 * [ShadowMonster99](https://github.com/shdwmtr) - [JS & CSS] Code from CompactHeader
