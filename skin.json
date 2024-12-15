@@ -239,7 +239,7 @@
                 "no": {}
             }
         },
-		"[Account Menu] - Hide Balance": {
+		"[Account Button] - Hide Balance": {
             "description": "PlaceHolder",
             "default": "yes",
             "tab": "Hider",
