@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/dotFelixan/NEVKO-UI/">
         <picture>
-          <img src="github/logo/newnevkologo.png" alt="nevkologo" width="200">
+          <img src="github/logo/newnevkologo.png?raw=true" alt="nevkologo" width="200">
         </picture>
     </a>
 </p>
@@ -15,11 +15,11 @@
 
  | Current Screenshot of Theme |
 | ------------------- | 
-| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/rewritescreen1.png) |
+| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/rewritescreen1.png?raw=true) |
 
  | Legacy Screenshot of Theme |
 | ------------------- | 
-| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/newscreenshot3.png) |
+| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/newscreenshot3.png?raw=true) |
 
 </div>
 

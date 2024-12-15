@@ -50,20 +50,6 @@
 				}
             }
 		},
-        	
-        "Refresh Header": {
-            "description": "PlaceHolder",
-            "default": "Enabled",
-            "tab": "Refresh Design",
-            "values": {
-                "Disabled": {},
-				"Enabled": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Header Code.css"
-                    }
-				}
-			}
-		},
         "Refresh Library [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Disabled",
@@ -274,6 +260,11 @@
 	},
 	
 		"Patches": [
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "RefreshUI/Main UI/Refresh Header/Header Code.css"
+	},
+	
     {
         "MatchRegexString": "^Steam$",
         "TargetCss": "Fixes/Remover/Main UI/RemoveShadow.css"
@@ -294,13 +285,15 @@
 ],
 	
     "author": ".Felixan",
-    "description": "Refresh Design.",
+    "description": "Refresh Design for Steam.",
     "github": {
         "owner": "dotFelixan",
         "repo_name": "NEVKO-UI"
     },
 	
+	"header_image": "https://imgur.com/a/C6j7yP6",
+    "splash_image": "https://imgur.com/a/3DzzLD3",
     "name": "NEVKO-UI",
-    "version": "0.9.05",
+    "version": "0.9.06",
     "tags": [ "Refresh", "AMOLED", "Customizable", "WIP", "SquaRE" ]
 }
