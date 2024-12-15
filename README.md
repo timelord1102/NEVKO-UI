@@ -6,7 +6,7 @@
     </a>
 </p>
 
-<p align="center">
+<div align="center">
 
 # NEVKO-UI
 ### Theme for Millennium for Steam
@@ -21,7 +21,7 @@
 | ------------------- | 
 | ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/newscreenshot3.png) |
 
-</p>
+</div>
 
 ## Current Features:
 
