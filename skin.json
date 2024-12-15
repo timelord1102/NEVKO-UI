@@ -20,9 +20,9 @@
             "default": "Rounded Square",
             "tab": "General",
             "values": {
-                "None": {
+                "Sharp": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/None/Main Avatars.css"
+                        "affects": ["^Steam$"], "src": "General/Rounding Avatars/Sharp/Main Avatars.css"
                     }
 				},
                 "Rounded Square": {

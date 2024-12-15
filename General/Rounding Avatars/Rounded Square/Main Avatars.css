@@ -7,6 +7,7 @@
 /* Disable Round Avatars with Cosmetic Border */
 ._3h-QRJGxnVOIExtHD1R0f2:has(+ ._2nPONxDUmK4rQXzK4Y3vG2) {
 	border-radius: 4% !important;
+	outline: unset !important;
 }
 
 
@@ -18,17 +19,22 @@
 }
 
 ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline: 0.05px solid;
+	outline: 1px solid;
+	transition: .25s linear;
 }
 /*offline*/ ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: #898989;
+	transition: .25s linear;
 }
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: #4cb4ff;
+	transition: .25s linear;
 }
 .awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: #4c91ac;
+	outline: 1px dashed #4cb4ff;
+	transition: .25s linear;
 }
 .ingame ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: #8cd61d;
+	transition: .25s linear;
 }
