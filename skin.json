@@ -43,7 +43,11 @@
             "tab": "General",
             "values": {
                 "Disabled": {},
-                "Enabled": {}
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "General/Alternative Online Indicator/Online Indicator View/Status Indicator.css"
+                    }
+				}
             }
 		},
         	
@@ -60,7 +64,7 @@
 				}
 			}
 		},
-        "Refresh Library": {
+        "Refresh Library [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Disabled",
             "tab": "Refresh Design",
@@ -74,7 +78,7 @@
                 }
             }
         },
-        "Refresh Friends": {
+        "Refresh Friends [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design",
@@ -83,7 +87,7 @@
 				"Enabled": {}
             }
         },
-        "Refresh Menu": {
+        "Refresh Menu [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design",
@@ -92,7 +96,7 @@
 				"Enabled": {}
             }
         },
-        "Refresh Settings": {
+        "Refresh Settings [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design",
@@ -101,7 +105,7 @@
 				"Enabled": {}
             }
         },
-        "Refresh Loading Screens": {
+        "Refresh Loading Screens [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design",
@@ -111,7 +115,7 @@
             }
         },
 				
-        "Refresh Store": {
+        "Refresh Store [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design [WEB]",
@@ -120,7 +124,7 @@
 				"Enabled": {}
             }
         },
-        "Refresh Profile": {
+        "Refresh Profile [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design [WEB]",
@@ -129,7 +133,7 @@
 				"Enabled": {}
             }
         },	
-        "Refresh Community": {
+        "Refresh Community [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Enabled",
             "tab": "Refresh Design [WEB]",
@@ -202,7 +206,7 @@
             }
         },     				
 			
-        "Theme Color Scheme": {
+        "Theme Color Scheme [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "Default",
             "tab": "Pallete Scheme",
@@ -212,7 +216,7 @@
                 "Material You": {}
             }
         },
-        "Material You Accent": {
+        "Material You Accent [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "no",
             "tab": "Pallete Scheme",
@@ -235,8 +239,21 @@
                 "no": {}
             }
         },
+		"[Account Menu] - Hide Balance": {
+            "description": "PlaceHolder",
+            "default": "yes",
+            "tab": "Hider",
+            "values": {
+                "yes": {				
+				"TargetCss": {
+						"affects": ["^Steam$"], "src": "Hider/Balance Acc/Balance.css"
+					}
+				},
+                "no": {}
+            }
+        },
 		
-        "Custom Accent": {
+        "Custom Accent [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "no",
             "tab": "Experimental",
@@ -245,7 +262,7 @@
                 "no": {}
             }
         },
-        "Extra Popup Menu": {
+        "Extra Popup Menu [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "no",
             "tab": "Experimental",
@@ -284,6 +301,6 @@
     },
 	
     "name": "NEVKO-UI",
-    "version": "0.9.01",
+    "version": "0.9.03",
     "tags": [ "Refresh", "AMOLED", "Customizable", "WIP", "SquaRE" ]
 }

@@ -36,3 +36,11 @@
 ._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 ._2VtAqT03BpBsVdmxwptn9D .IconBevel {
     display: none !important;
 }
+
+/* Remove Strange Scalling */
+.nibodjvvrm86uCfnnAn4g.X-Large {
+	display: unset !important;
+	
+    height: 90px;
+    width: 90px;
+}

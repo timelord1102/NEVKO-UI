@@ -214,6 +214,57 @@
 ._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
     order: 1;
 }
+/*Account Menu Color*/
+._3yD46y5pd3zOGR7CzKs0mC.ingame {
+    background-color: #5C7E1080;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze {
+    background-color: #7E5B1099;
+}
+/*Hover Account Menu Color*/
+/*offline*/ ._3yD46y5pd3zOGR7CzKs0mC:hover {
+    background-color: #72757A47;
+    transition: background-color .25s ease-out;
+}
+._3yD46y5pd3zOGR7CzKs0mC.online:hover {
+    background-color: #4CB4FF4F;
+}
+._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze:hover {
+    background-color: #4C91AC3B;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame:hover {
+    background-color: #8CD61D33;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze:hover {
+    background-color: #D6921D3D;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC /*offline*/ {
+    color: #898989;
+}
+._3yD46y5pd3zOGR7CzKs0mC.online {
+    color: #4CB4FF;
+}
+._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze {
+    color: #4C91AC;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame {
+    color: #8CD61D;
+}
+._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze {
+    color: #D6B01D;
+}
+/*Hover Animation*/
+._3xUpb5DWXPFNcHHIcv-9pe.right,
+._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+    transition: background-color .25s ease-out;
+}
+._3yD46y5pd3zOGR7CzKs0mC {
+    transition: .25s linear !important;
+}
+._3yD46y5pd3zOGR7CzKs0mC:hover {
+    transition: background-color .25s ease-out;
+}
 /*DesktopUI Buttons*/
 .title-area .title-bar-actions {
     margin-top: 12px;

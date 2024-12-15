@@ -16,17 +16,16 @@
 }
 /*offline*/ ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: #898989;
-	transition: .25s linear;
 }
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: #4cb4ff;
-	transition: .25s linear;
+	outline-color: #4CB4FF;
 }
 .awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline: 1px dashed #4cb4ff;
-	transition: .25s linear;
+	outline: 1px dashed #4C91AC;
 }
 .ingame ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: #8cd61d;
-	transition: .25s linear;
+	outline-color: #8CD61D;
+}
+.ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline: 1px dashed #D6B01D;
 }
