@@ -30,8 +30,10 @@
 * Alternative Online Indicator
 
 * Refresh Header Design
-
 * Refresh Design Config
+
+* Custom Accents
+* Custom Background Color
 
 * Hider: [Account Menu] - Blur Account Name
 * Hider: [Account Button] - Hide Balance
@@ -47,7 +49,7 @@
 ### Medium Priority -
 
  1. Solar Icons
- 2. AMOLED/etc. Pallete Scheme [CSS]
+ 2. AMOLED/Material You/etc. Pallete Scheme [CSS] | STATUS: DONE (in --main-backround and --custom-accent)
  3. WEB Alt Store [CSS & JS]
  4. Custom Badges for Users Who Donated/Help With Code [CSS]
 

@@ -195,16 +195,6 @@
                 "no": {}
             }
         },     				
-			
-        "Theme Color Scheme [PLACEHOLDER]": {
-            "description": "PlaceHolder",
-            "default": "Default",
-            "tab": "Pallete Scheme",
-            "values": {
-                "Default": {},
-				"AMOLED": {}
-            }
-        },
 		
 		"[Account Menu] - Blur Account Name": {
             "description": "PlaceHolder",
@@ -306,5 +296,5 @@
     "splash_image": "https://i.imgur.com/dqCDCH2.png",
     "name": "NEVKO-UI",
     "version": "0.9.07",
-    "tags": [ "Refresh", "Redesign", "Customizable", "AMOLED", "WIP" ]
+    "tags": [ "Refresh", "Redesign", "Customizable", "AMOLED", "Material You", "WIP" ]
 }

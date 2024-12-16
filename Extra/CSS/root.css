@@ -2,4 +2,10 @@
     --custom-accent: #1A9FFF;
 	
 	--main-background: #161D25;
+	
+	--ofline-status: #161D25;
+	--online-status: #161D25;
+	--idle-status: #161D25;
+	--ingame-status: #161D25;
+	--ingameidle-status: #161D25;
 }
