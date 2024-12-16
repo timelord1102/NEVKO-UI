@@ -1,0 +1,11 @@
+:root, body {
+	/*main*/	
+	--accent: var(--custom-accent) !important;
+	/*main transparent*/
+	--accent-transparent: color-mix(in srgb, var(--accent) 15%, transparent) !important;
+	--accent-transparent-alt: color-mix(in srgb, var(--accent) 10%, transparent) !important;
+	/*main lightly*/
+	
+	/*main darky*/
+	
+}

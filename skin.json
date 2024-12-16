@@ -2,7 +2,7 @@
 	
 	"UseDefaultPatches": true,	
     "Steam-WebKit": "webkit.css",	
-    "RootColors": "Configs/CSS/root.css",
+    "RootColors": "Extra/CSS/root.css",
 	
     "Conditions": {			
 	
@@ -159,7 +159,11 @@
                         "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Bottom URL Bar.css"
                     }
                 },
-                "no": {}
+                "no": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Top URL Bar.css"
+                    }
+                }
             }
         },
         "[Header] - Reorder Main Buttons.": {
@@ -198,19 +202,9 @@
             "tab": "Pallete Scheme",
             "values": {
                 "Default": {},
-				"AMOLED": {},
-                "Material You": {}
+				"AMOLED": {}
             }
         },
-        "Material You Accent [PLACEHOLDER]": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Pallete Scheme",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },	
 		
 		"[Account Menu] - Blur Account Name": {
             "description": "PlaceHolder",
@@ -239,15 +233,6 @@
             }
         },
 		
-        "Custom Accent [PLACEHOLDER]": {
-            "description": "PlaceHolder",
-            "default": "no",
-            "tab": "Experimental",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
         "Extra Popup Menu [PLACEHOLDER]": {
             "description": "PlaceHolder",
             "default": "no",
@@ -278,9 +263,35 @@
         "MatchRegexString": ".ModalDialogPopup",
         "TargetCss": "Fixes/Fix Location/Settings UI/SVGLocation.css"
     },
-		{
+	{
         "MatchRegexString": "^Steam$",
         "TargetCss": "Fixes/Return Old Style Tooltips/ROST.css"
+    },
+
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Accents/Main Steam Elements.css"
+    },	
+	{
+        "MatchRegexString": "Menu$",
+        "TargetCss": "Fixes/Accents/Main Steam Elements.css"
+    },
+	{
+        "MatchRegexString": "SuperNav$",
+        "TargetCss": "Fixes/Accents/Main Steam Elements.css"
+    },
+	
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Extra/CSS/accents-config.css"
+    },
+	{
+        "MatchRegexString": "Menu$",
+        "TargetCss": "Extra/CSS/accents-config.css"
+    },
+	{
+        "MatchRegexString": "SuperNav$",
+        "TargetCss": "Extra/CSS/accents-config.css"
     }
 ],
 	
@@ -295,5 +306,5 @@
     "splash_image": "https://i.imgur.com/dqCDCH2.png",
     "name": "NEVKO-UI",
     "version": "0.9.06",
-    "tags": [ "Refresh", "AMOLED", "Customizable", "WIP", "SquaRE" ]
+    "tags": [ "Refresh", "Redesign", "Customizable", "AMOLED", "WIP" ]
 }

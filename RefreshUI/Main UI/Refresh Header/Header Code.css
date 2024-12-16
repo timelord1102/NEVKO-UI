@@ -10,11 +10,11 @@
 /*Hide Shadow & Change Color Interface*/
 ._3vCzSrrXZzZjVJFZNg9SGu,
 ._1_yS5UP7el0aN4vntx3dx {
-    background: #161D25 !important;
+    background: var(--main-background);
 	box-shadow: none !important;
 }
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
-    background: #161D25 !important;
+    background: var(--main-background);
 	box-shadow: none !important;
 }
 ._2TKEazUUS3TlniZfpc8OOe,
@@ -27,13 +27,18 @@
 }
 /*Remove Black Thing*/
 ._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX {
-    background-color: #161d25;
+    background-color: var(--main-background);
 }
 
 	/* Change Style Top Bar */
 /*Different Height Style*/
 ._39oUCO1OuizVPwcnnv88no {
     height: 55px !important;
+}
+/*Custom Accents*/
+:root {
+    --virtualmenu-accent: var(--accent) !important;
+	--virtualmenupointer-color: var(--accent) !important;	
 }
 		
 		/* Left Side Bar */
@@ -63,15 +68,15 @@
     background: rgba(103, 112, 123, .2);
 }
 ._7AlhCx3XGzBeIrQaCneUD:hover {
-	background: #2C333D;
+	background: #6363632e;
 	transition: .2s linear;
 }
 ._1gqEjB5QsKT_NftD1dEsdZ {
-	background: #1F2C41 !important;
+	background: var(--accent-transparent) !important;
 	transition: .2s linear;
 }
 ._1gqEjB5QsKT_NftD1dEsdZ:hover {
-	background: #223047 !important;
+	background: var(--accent-transparent-alt) !important;
 	transition: .2s linear;
 }
 ._7AlhCx3XGzBeIrQaCneUD ._19axKcqYRuaJ8vdYKYmtTQ {
@@ -100,6 +105,11 @@
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
 	display: none;
 }
+/*Custom Accents*/
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--accent);
+    text-shadow: 0px 0px 1px var(--accent);
+}
 
 /*Change Style STEAM Button*/
 .bSKGlAJG2UVWTsntEJY2v .GG9wVQz6PLlhGHlJyZh4E {
@@ -119,8 +129,8 @@
 }
 .bSKGlAJG2UVWTsntEJY2v:hover > svg > path,
 .bSKGlAJG2UVWTsntEJY2v:hover {
-	color: #1A9FFF !important;
-	fill: #1A9FFF !important;
+	color: var(--accent) !important;
+	fill: var(--accent) !important;
 	transition: .05s linear;
 }
 ._1Ky59qmywxOUtNcI1cgmkX {
@@ -143,6 +153,11 @@
 /*Hide 'Big Picture'*/
 ._3LKQ3S_yqrebeNLF6aeiog {
 	display: none;
+}
+/*Change Hover Buttons Background*/
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):hover, 
+.RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
+	background-color: #6363632e;
 }
 
 /*Button Layout*/
