@@ -189,7 +189,7 @@
 	margin-right: 0px !important;
     margin-top: -4px !important;
     border-radius: 4px;
-    padding: 0px 8px;
+    padding: 0px 4px;
 }
 ._2Szzh5sKyGgnLUR870zbDE {
     margin-top: -4px !important;
@@ -215,6 +215,19 @@
 .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm {
 	transition: color .05s ease-out;
     color: #FFFFFF;
+}
+/*Fix Family Sharing Button*/
+._13vrqU6oOqmmxrsZSW5O39 > .tool-tip-source {
+    cursor: pointer;
+}
+._2Szzh5sKyGgnLUR870zbDE {
+	min-width: 32px !important;
+	
+	order: 1;
+}
+._13vrqU6oOqmmxrsZSW5O39:hover, 
+._3arz-hc3FJ0QKXLPRUSaah:hover {
+    background-color: rgba(103, 112, 123, .2);
 }
 /*Change Size Icon*/
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F,
