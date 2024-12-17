@@ -68,21 +68,21 @@
 /* Color Online Icons */
 /*offline*/ ._3xUpb5DWXPFNcHHIcv-9pe.right,
 /*offline*/ ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: #898989;
+	background: var(--offline-status);
 }
 .online ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .online ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: #4CB4FF;
+	background: var(--online-status);
 }
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: #4C91AC;
+	background: var(--idle-status);
 }
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: #8CD61D;
+	background: var(--ingame-status);
 }
 .ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: #D6B01D;
+	background: var(--ingameidle-status);
 }

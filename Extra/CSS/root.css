@@ -3,9 +3,9 @@
 	
 	--main-background: #161D25;
 	
-	--ofline-status: #161D25;
-	--online-status: #161D25;
-	--idle-status: #161D25;
-	--ingame-status: #161D25;
-	--ingameidle-status: #161D25;
+	--offline-status: #898989;
+	--online-status: #4CB4FF;
+	--idle-status: #4C91AC;
+	--ingame-status: #8CD61D;
+	--ingameidle-status: #D6B01D;
 }

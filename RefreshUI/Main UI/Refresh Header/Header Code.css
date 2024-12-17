@@ -229,45 +229,39 @@
 ._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
     order: 1;
 }
-/*Account Menu Color*/
-._3yD46y5pd3zOGR7CzKs0mC.ingame {
-    background-color: #5C7E1080;
-}
-._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze {
-    background-color: #7E5B1099;
-}
 /*Hover Account Menu Color*/
 /*offline*/ ._3yD46y5pd3zOGR7CzKs0mC:hover {
-    background-color: #72757A47;
+    background-color: color-mix(in srgb, var(--offline-status) 20%, transparent) !important;
     transition: background-color .25s ease-out;
 }
 ._3yD46y5pd3zOGR7CzKs0mC.online:hover {
-    background-color: #4CB4FF4F;
+    background-color: color-mix(in srgb, var(--online-status) 20%, transparent) !important;
 }
 ._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze:hover {
-    background-color: #4C91AC3B;
+    background-color: color-mix(in srgb, var(--idle-status) 20%, transparent) !important;
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame:hover {
-    background-color: #8CD61D33;
+    background-color: color-mix(in srgb, var(--ingame-status) 20%, transparent) !important;
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze:hover {
-    background-color: #D6921D3D;
+    background-color: color-mix(in srgb, var(--ingameidle-status) 20%, transparent) !important;
 }
 
+/* Account Color Text*/
 ._3yD46y5pd3zOGR7CzKs0mC /*offline*/ {
-    color: #898989;
+    color: var(--offline-status);
 }
 ._3yD46y5pd3zOGR7CzKs0mC.online {
-    color: #4CB4FF;
+    color: var(--online-status);
 }
 ._3yD46y5pd3zOGR7CzKs0mC.awayOrSnooze {
-    color: #4C91AC;
+    color: var(--idle-status);
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame {
-    color: #8CD61D;
+    color: var(--ingame-status);
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame.awayOrSnooze {
-    color: #D6B01D;
+    color: var(--ingameidle-status);
 }
 /*Hover Animation*/
 ._3xUpb5DWXPFNcHHIcv-9pe.right,

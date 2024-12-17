@@ -1,4 +1,73 @@
+	/* Header */
 /*Account Menu - Account Name & Balance*/
 .HoGkIKTQnkTEFGjqO-GMl ._11phBiBefcVQdzrnrezkKa, .HoGkIKTQnkTEFGjqO-GMl ._2jphjrSifC6orDT4g_7Wd {
     color: var(--accent) !important;
+}
+/*Progress Download Bar*/
+._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after {
+    background-color: var(--accent) !important;
+}
+	/*Library*/
+/*Left Game List*/
+._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
+    color: var(--accent-dark);
+}
+._2-O4ZG0KrnSrzISHBKctFQ._26PT_OTo7-JDunJWeZgjT8{
+    color: var(--accent-dark);
+}
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._3uk3F1BmAJQR6rl1TPcaif {
+    color: var(--accent-light);
+}
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._1LVQp3h_vGOZ8TuDUEge0k {
+    color: var(--accent-light);
+}
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ .cMb2tLY-QjdRohM5U6Btp {
+    color: var(--accent-light);
+}
+/*Game Page*/
+._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ {
+    color: var(--accent);
+}
+._1kCN0pAntrcGCSmcc-vYdk {
+    color: var(--accent);
+}
+._2Jkk-4RGWzhce22lSnA9Em {
+    fill: var(--accent-light);
+}
+._1kCN0pAntrcGCSmcc-vYdk {
+	background: var(--accent-transparent);
+}
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover {
+    background: var(--accent-transparent-alt);
+}
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl svg path {
+    stroke: var(--accent);
+    fill: var(--accent);
+}
+
+._1J21tLst5SEhBPkVRT53UV {
+    color: var(--accent-light);
+}
+._1J21tLst5SEhBPkVRT53UV div {
+    background: var(--accent-transparent-alt2);
+}
+._1J21tLst5SEhBPkVRT53UV:hover._28ZR8gHitOrJaSLxcIAl2p {
+    filter: brightness(1.1);
+}
+
+._2AzIX5kl9k6JnxLfR5H4kX {
+    background: var(--accent);
+}
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background: var(--accent);
+}
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    background: var(--accent-dark);
+}
+
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
+    background-color: var(--accent);
+}
+._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj {
+    background-color: var(--accent);
 }
