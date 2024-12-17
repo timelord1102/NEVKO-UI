@@ -31,13 +31,13 @@
 	outline-color: var(--offline-status);
 }
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: var(--offline-status);
+	outline-color: var(--online-status);
 }
 .awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: 1px dashed var(--idle-status);
 }
 .ingame ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: var(--idle-status);
+	outline-color: var(--ingame-status);
 }
 .ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: 1px dashed var(--ingameidle-status);
