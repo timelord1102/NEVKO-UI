@@ -3,9 +3,11 @@
 	
 	--main-background: #161D25;
 	
+	--green-color: #8CD61D;
+	
 	--offline-status: #898989;
 	--online-status: #4CB4FF;
 	--idle-status: #4C91AC;
 	--ingame-status: #8CD61D;
-	--ingameidle-status: #D6B01D;
+	--ingameidle-status: #62813B;
 }

@@ -7,7 +7,7 @@
     "Conditions": {			
 	
         "Badges for Contributes": {
-            "description": "PlaceHolder",
+            "description": "Custom Badges for Users Who Donated/Help With Code! [WIP]",
             "default": "yes",
             "tab": "General",
             "values": {
@@ -16,7 +16,7 @@
             }
         },
         "Rounding Avatars": {
-            "description": "PlaceHolder",
+            "description": "Three Convenient Presets for Avatars!",
             "default": "Rounded Square",
             "tab": "General",
             "values": {
@@ -38,12 +38,12 @@
             }
 		},
         "Alternative Online Indicator": {
-            "description": "PlaceHolder",
-            "default": "Disabled",
+            "description": "Alternative Indicator like in Discord & etc.",
+            "default": "no",
             "tab": "General",
             "values": {
-                "Disabled": {},
-                "Enabled": {
+                "no": {},
+                "yes": {
                     "TargetCss": {
                         "affects": ["^Steam$"], "src": "General/Alternative Online Indicator/Online Indicator View/Status Indicator.css"
                     }
@@ -130,7 +130,7 @@
         },
 
         "[Header] - Move Bottom Bar to Top Bar.": {
-            "description": "PlaceHolder",
+            "description": "And Removes Bottom Bar. Credits: Shadow [CSS & JS]",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -150,7 +150,7 @@
             }
         },
 		"[Header] - Move URL Bar to Bottom.": {
-            "description": "PlaceHolder",
+            "description": "Just Moves URL Bar to Bottom. Nothing Else.",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -167,7 +167,7 @@
             }
         },
         "[Header] - Reorder Main Buttons.": {
-            "description": "PlaceHolder",
+            "description": "Swap 'Library' and 'Store' Buttons.",
             "default": "no",
             "tab": "Refresh Design Config",
             "values": {
@@ -180,7 +180,7 @@
             }
         },
         "[Header] - Hide Profile Button.": {
-            "description": "PlaceHolder",
+            "description": "Remove Profile Button in Left Side. All Needful Buttons Ports into 'Account Menu'",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -197,7 +197,7 @@
         },     				
 		
 		"[Account Menu] - Blur Account Name": {
-            "description": "PlaceHolder",
+            "description": "Just Blur Account/Login Name in Account Menu. Nothing Else (for now).",
             "default": "yes",
             "tab": "Hider",
             "values": {
@@ -210,7 +210,7 @@
             }
         },
 		"[Account Button] - Hide Balance": {
-            "description": "PlaceHolder",
+            "description": "Just Hide Balance in Account Button. Nothing Else.",
             "default": "yes",
             "tab": "Hider",
             "values": {
@@ -295,6 +295,6 @@
 	"header_image": "https://i.imgur.com/Qo6O7iv.png",
     "splash_image": "https://i.imgur.com/dqCDCH2.png",
     "name": "NEVKO-UI",
-    "version": "0.9.12",
+    "version": "0.9.11",
     "tags": [ "Refresh", "Redesign", "Customizable", "Accents", "AMOLED", "Material You", "WIP" ]
 }
