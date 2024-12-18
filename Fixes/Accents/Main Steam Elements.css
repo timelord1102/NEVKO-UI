@@ -72,7 +72,7 @@
     background: var(--accent);
 }
 .UVeN0kaD3zv1feMj_mMw5.By7D93oEZkZtBeg23NDoR._3xi-HLpFVHaakihoqhQ_6C {
-    background: var(--accent-transparent-alt2);
+    background: var(--accent-transparent-alt);
 }
 .UVeN0kaD3zv1feMj_mMw5._3xi-HLpFVHaakihoqhQ_6C {
     background: var(--accent-transparent-alt2);
@@ -135,4 +135,11 @@
 }
 .A_A2B6fTn_MPLlGCmsLtd a:not(.LinkButton):hover {
     color: var(--accent-light);
+}
+
+._3oMUSjOFNB0E9LWcL2sE7 {
+    background: linear-gradient(to right, #199fff00 0%, var(--accent-transparent-alt2) 18px, var(--accent) 18px, var(--accent) 22px);
+}
+._39Zk32AvV5cr6g-83IVRVS {
+    background: var(--accent-transparent-alt2);
 }
