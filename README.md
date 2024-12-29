@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/dotFelixan/NEVKO-UI/">
         <picture>
-          <img src="github/logo/newnevkologo.png?raw=true" alt="nevkologo" width="200">
+          <img src="github/logo/newnevkologo.png?raw=true" alt="nevkouilogo" width="200">
         </picture>
     </a>
 </p>
