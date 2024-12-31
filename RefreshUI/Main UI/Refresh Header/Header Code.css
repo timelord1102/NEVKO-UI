@@ -219,7 +219,7 @@
 	transition: color .05s ease-out;
     color: #FFFFFF;
 }
-/*Fix Family Sharing Button*/
+/*Fix Family Security Button*/
 ._13vrqU6oOqmmxrsZSW5O39 > .tool-tip-source {
     cursor: pointer;
 }
@@ -237,6 +237,10 @@
 ._3arz-hc3FJ0QKXLPRUSaah:hover ._34bQcTHo5QKzuujoEyU1tm {
 	transition: color .05s ease-out;
     color: #FFFFFF;
+}
+._13vrqU6oOqmmxrsZSW5O39._2lStU4uLIW5pByb98vQdpO, 
+._3arz-hc3FJ0QKXLPRUSaah._2lStU4uLIW5pByb98vQdpO {
+    background-color: var(--green-color);
 }
 /*Change Size Icon*/
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F,

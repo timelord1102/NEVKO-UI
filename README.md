@@ -15,21 +15,19 @@
 
  | Current Screenshot of Theme |
 | ------------------- | 
-| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/rewritescreen1.png?raw=true) |
-
- | Legacy Screenshot of Theme |
-| ------------------- | 
-| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/newscreenshot3.png?raw=true) |
+| ![Refresh Design](https://github.com/dotFelixan/NEVKO-UI/blob/main/github/screenshots/rewritescreenshot.png?raw=true) |
 
 </div>
 
 ## Current Features:
 
+* Contributor Badges
 * Custom Rounding Avatars
 
 * Alternative Online Indicator
 
 * Refresh Header Design
+* Refresh Library [WIP] Design
 * Refresh Design Config
 
 * Custom Accents

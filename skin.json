@@ -7,16 +7,23 @@
     "Conditions": {			
 	
         "Badges for Contributes": {
-            "description": "PlaceHolder",
+            "description": "Custom Badges for Users Who Donated/Help With Code! [WIP]",
             "default": "yes",
             "tab": "General",
             "values": {
                 "no": {},
-                "yes": {}
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "RefreshUI/WEB/Badges for Contributes/Main Script.css"
+                    },
+                    "TargetJs": {
+                        "affects": [".*"], "src": "RefreshUI/WEB/Badges for Contributes/Main Script.js"
+                    }
+                }
             }
         },
         "Rounding Avatars": {
-            "description": "PlaceHolder",
+            "description": "Three Convenient Presets for Avatars!",
             "default": "Rounded Square",
             "tab": "General",
             "values": {
@@ -38,35 +45,48 @@
             }
 		},
         "Alternative Online Indicator": {
-            "description": "PlaceHolder",
-            "default": "Disabled",
+            "description": "Alternative Indicator like in Discord & etc.",
+            "default": "no",
             "tab": "General",
             "values": {
-                "Disabled": {},
-                "Enabled": {
+                "no": {},
+                "yes": {
                     "TargetCss": {
                         "affects": ["^Steam$"], "src": "General/Alternative Online Indicator/Online Indicator View/Status Indicator.css"
                     }
 				}
             }
 		},
-        "Refresh Library [PLACEHOLDER]": {
-            "description": "PlaceHolder",
-            "default": "Disabled",
+		
+        "Refresh Header": {
+            "description": "Fancy Lookin' Header!",
+            "default": "Top",
             "tab": "Refresh Design",
             "values": {
-                "Disabled": {},
-				"Enabled": {},
-                "Legacy": {
+                "Top": {},
+				"Bottom": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Legacy/FancyLibraryLegacy.css"
+                        "affects": ["^Steam$"], "src": "RefreshUI/Main UI/Refresh Header/Top Bar Reverse.css"
+                    }
+                }
+            }
+        },
+        "Refresh Library [WIP]": {
+            "description": "PlaceHolder",
+            "default": "Left Side",
+            "tab": "Refresh Design",
+            "values": {
+                "Left Side": {},
+				"Right Side": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Refresh Library/Flip Library.css"
                     }
                 }
             }
         },
         "Refresh Friends [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
@@ -75,7 +95,7 @@
         },
         "Refresh Menu [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
@@ -84,16 +104,7 @@
         },
         "Refresh Settings [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
-            "tab": "Refresh Design",
-            "values": {
-                "Disabled": {},
-				"Enabled": {}
-            }
-        },
-        "Refresh Loading Screens [PLACEHOLDER]": {
-            "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design",
             "values": {
                 "Disabled": {},
@@ -103,7 +114,7 @@
 				
         "Refresh Store [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design [WEB]",
             "values": {
                 "Disabled": {},
@@ -112,7 +123,7 @@
         },
         "Refresh Profile [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design [WEB]",
             "values": {
                 "Disabled": {},
@@ -121,16 +132,43 @@
         },	
         "Refresh Community [PLACEHOLDER]": {
             "description": "PlaceHolder",
-            "default": "Enabled",
+            "default": "Disabled",
             "tab": "Refresh Design [WEB]",
             "values": {
                 "Disabled": {},
 				"Enabled": {}
             }
         },
-
-        "[Header] - Move Bottom Bar to Top Bar.": {
+		
+        "[Library] - Resize Library List.": {
             "description": "PlaceHolder",
+            "default": "Default",
+            "tab": "Refresh Design Config",
+            "values": {
+                "Default": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Refresh Library/Library Sizes/Default.css"
+                    }
+				},
+                "Small": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Refresh Library/Library Sizes/Small.css"
+                    }
+				},
+				"Medium": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Refresh Library/Library Sizes/Medium.css"
+                    }
+				},
+				"Big": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "RefreshUI/Library UI/Refresh Library/Library Sizes/Big.css"
+                    }
+				}
+            }
+        },
+        "[Header] - Move Bottom Bar to Top Bar.": {
+            "description": "And Removes Bottom Bar. Credits: Shadow [CSS & JS]",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -150,7 +188,7 @@
             }
         },
 		"[Header] - Move URL Bar to Bottom.": {
-            "description": "PlaceHolder",
+            "description": "Just Moves URL Bar to Bottom. Nothing Else.",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -167,7 +205,7 @@
             }
         },
         "[Header] - Reorder Main Buttons.": {
-            "description": "PlaceHolder",
+            "description": "Swap 'Library' and 'Store' Buttons.",
             "default": "no",
             "tab": "Refresh Design Config",
             "values": {
@@ -180,7 +218,7 @@
             }
         },
         "[Header] - Hide Profile Button.": {
-            "description": "PlaceHolder",
+            "description": "Remove Profile Button in Left Side. All Needful Buttons Ports into 'Account Menu'",
             "default": "yes",
             "tab": "Refresh Design Config",
             "values": {
@@ -197,7 +235,7 @@
         },     				
 		
 		"[Account Menu] - Blur Account Name": {
-            "description": "PlaceHolder",
+            "description": "Just Blur Account/Login Name in Account Menu. Nothing Else (for now).",
             "default": "yes",
             "tab": "Hider",
             "values": {
@@ -210,7 +248,7 @@
             }
         },
 		"[Account Button] - Hide Balance": {
-            "description": "PlaceHolder",
+            "description": "Just Hide Balance in Account Button. Nothing Else.",
             "default": "yes",
             "tab": "Hider",
             "values": {
@@ -234,10 +272,23 @@
         }	
 	},
 	
-		"Patches": [
+		"Patches": [	
+    {
+      "MatchRegexString": ".*",
+      "TargetJs": "webkit.js"
+    },
+		
 	{
         "MatchRegexString": "^Steam$",
         "TargetCss": "RefreshUI/Main UI/Refresh Header/Header Code.css"
+	},
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetJs": "RefreshUI/Main UI/Refresh Header/Header Script.js"
+	},
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "RefreshUI/Library UI/Refresh Library/Library Code.css"
 	},
 	
     {
@@ -247,6 +298,10 @@
 	{
         "MatchRegexString": "^Steam$",
         "TargetCss": "Fixes/Remover/Main UI/RemoveUseless.css"
+    },
+	{
+        "MatchRegexString": "^Steam$",
+        "TargetCss": "Fixes/Remover/Library UI/Resizer Library.css"
     },
 	
 	{
@@ -292,9 +347,13 @@
         "repo_name": "NEVKO-UI"
     },
 	
+	"discord_support": {
+        "inviteCodeExcludingLink": "UuAQWZ9HxE"
+    },
+	
 	"header_image": "https://i.imgur.com/Qo6O7iv.png",
     "splash_image": "https://i.imgur.com/dqCDCH2.png",
     "name": "NEVKO-UI",
-    "version": "0.9.13",
-    "tags": [ "Refresh", "Redesign", "Customizable", "Accents", "AMOLED", "Material You", "WIP" ]
+    "version": "0.9.20",
+    "tags": [ "Refresh", "Redesign", "Customizable", "Features", "Accents", "AMOLED", "Material You", "WIP" ]
 }
