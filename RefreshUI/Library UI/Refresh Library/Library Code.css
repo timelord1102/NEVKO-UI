@@ -101,6 +101,25 @@ html:has([class*="NarrowRightPanel"]) [class*="_9sPoVBFyE_vE87mnZJ5aB"] {
     scrollbar-width: none;
 }
 
+/*Lower Collection Tags*/
+._2b6WkTnmJxMuX1biL7aS3C {
+    position: fixed !important;
+    top: 6px;
+    right: 24px;
+
+    max-height: 16px;
+    align-content: center;
+    justify-content: center;
+    
+} 
+
+._2b6WkTnmJxMuX1biL7aS3C ._1HS4twEHtDJ_8MWgJT4VBd {
+    font-size: 8px;
+    background: color-mix(in srgb, var(--secondary-background) 65%, transparent) !important;
+	border-radius: 4px;
+	box-shadow: 0 0 12px #0000005c;
+}
+
 /*Fancy Gamepage Basic*/
 ._2OOzYVWIHaKXm6_7sscT9i>div {
     transition: 1s all ease;
@@ -269,8 +288,8 @@ div.NarrowRightPanel ._34lrt5-Fc3usZU6trA1P0- {
 }
 ._1YbtIWcfkQJOysLXQbwzRf {
     position: fixed !important;
-    top: 8px;
-    right: 16px;
+    top: 24px;
+    right: 24px;
 	
 	background: color-mix(in srgb, var(--secondary-background) 65%, transparent) !important;
 	border-radius: 8px;
