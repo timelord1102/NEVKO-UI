@@ -105,12 +105,10 @@ html:has([class*="NarrowRightPanel"]) [class*="_9sPoVBFyE_vE87mnZJ5aB"] {
 ._2b6WkTnmJxMuX1biL7aS3C {
     position: fixed !important;
     top: 6px;
-    right: 24px;
-
+    right: 16px;
     max-height: 16px;
     align-content: center;
     justify-content: center;
-    
 } 
 
 ._2b6WkTnmJxMuX1biL7aS3C ._1HS4twEHtDJ_8MWgJT4VBd {
@@ -289,8 +287,7 @@ div.NarrowRightPanel ._34lrt5-Fc3usZU6trA1P0- {
 ._1YbtIWcfkQJOysLXQbwzRf {
     position: fixed !important;
     top: 24px;
-    right: 24px;
-	
+    right: 16px;
 	background: color-mix(in srgb, var(--secondary-background) 65%, transparent) !important;
 	border-radius: 8px;
 	box-shadow: 0 0 12px #0000005c;
@@ -415,7 +412,7 @@ div.NarrowRightPanel ._1kiZKVbDe-9Ikootk57kpA ._3bkqc-SsCg0b3FTEuewlK8 {
     flex-flow: column-reverse;
     position: absolute;
     margin-top: 14px;
-    right: 20px;
+    right: 6px;
     margin-left: 0;
     margin-right: 0;
 }
